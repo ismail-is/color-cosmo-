@@ -25,7 +25,7 @@ export default function MainRouter() {
 		<>
 			<BrowserRouter>
 				<Routes>
-					<Route path="/" element={<Home />} />
+					<Route path="/color-cosmo-" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					{/* <Route path="/blog" element={<Blog />} /> */}
 					<Route path="/contact" element={<Contact />} />
