@@ -22,13 +22,13 @@ export default function Breadcrumb({ breadcrumbTitle }) {
 								className="breadcrumb-items wow fadeInUp"
 								data-wow-delay=".5s"
 							>
-								<li>
+								{/* <li>
 									<Link to="/">Home</Link>
 								</li>
 								<li>
 									<i className="fa-sharp fa-solid fa-slash-forward" />
-								</li>
-								<li>{breadcrumbTitle}</li>
+								</li> */}
+								{/* <li>{breadcrumbTitle}</li> */}
 							</ul>
 						</div>
 					</div>

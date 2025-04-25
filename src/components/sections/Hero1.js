@@ -76,14 +76,12 @@ export default function Hero1() {
 								<div className="vector-shape-2">
 									<img src="assets/img/hero/vector-2.png" alt="img" />
 								</div>
-								<h1 className="wow fadeInUp" data-wow-delay=".3s">
-									Create the <br />
-									building you <br />
-									want here
+								<h1 className="wow fadeInUp" data-wow-delay=".3s" style={{fontSize:'60px'}}>
+								Delivering <br/>
+								High-performance <br/>Inks For Modern<br/> Packaging
 								</h1>
 								<p className="wow fadeInUp" data-wow-delay=".5s">
-									Proactively pontificate client-centered relationships visavis
-									process centric leadership skills. Credibly.
+								Trusted By Top Manufacturers For Ink Solutions
 								</p>
 								<div className="hero-button">
 									<Link
@@ -91,10 +89,10 @@ export default function Hero1() {
 										className="theme-btn bg-white wow fadeInUp"
 										data-wow-delay=".3s"
 									>
-										Explore More
+										Read More
 										<i className="fa-regular fa-arrow-right" />
 									</Link>
-									<span
+									{/* <span
 										className="button-text wow fadeInUp"
 										data-wow-delay=".5s"
 									>
@@ -105,7 +103,7 @@ export default function Hero1() {
 											<i className="fa-solid fa-play" />
 										</a>
 										<span className="ms-3 d-line">play reel</span>
-									</span>
+									</span> */}
 								</div>
 							</div>
 						</div>

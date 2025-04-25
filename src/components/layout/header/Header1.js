@@ -12,30 +12,26 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 							<ul className="contact-list">
 								<li>
 									<i className="far fa-envelope" />
-									<Link to="/mailto:info@example.com" className="link">
-										info@example.com
+									<Link to="/mailto:info@colorcosmo.com" className="link">
+									info@colorcosmo.com
 									</Link>
 								</li>
 								<li>
 									<i className="fa-solid fa-phone-volume" />
-									<Link to="/tel:2086660112">+208-666-0112</Link>
+									<Link to="/tel:0589996806">+058 999 6806</Link>
 								</li>
 							</ul>
 							<div className="top-right">
 								<div className="social-icon d-flex align-items-center">
 									<span>Follow Us:</span>
 									<Link to="/#">
-										<i className="fab fa-facebook-f" />
+										<i className="fab fa-whatsapp" />
 									</Link>
-									<Link to="/#">
-										<i className="fab fa-twitter" />
-									</Link>
+									
 									<Link to="/#">
 										<i className="fa-brands fa-linkedin-in" />
 									</Link>
-									<Link to="/#">
-										<i className="fa-brands fa-youtube" />
-									</Link>
+									
 								</div>
 							</div>
 						</div>
@@ -52,7 +48,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 							<div className="header-main">
 								<div className="logo d-none">
 									<Link to="/" className="header-logo">
-										<img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+										<img src="assets/img/allimg/logo.png" alt="logo-img" />
 									</Link>
 								</div>
 								<div className="header-left">
@@ -64,7 +60,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 										</div>
 									</div>
 								</div>
-								<div className="header-right d-flex justify-content-end align-items-center">
+								{/* <div className="header-right d-flex justify-content-end align-items-center">
 									<a className="search-trigger search-icon" onClick={handleSearch}>
 										<i className="fal fa-search" />
 									</a>
@@ -83,7 +79,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 											<i className="fas fa-bars" />
 										</div>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>

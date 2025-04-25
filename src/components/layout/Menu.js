@@ -8,7 +8,7 @@ export default function Menu() {
 
 			<nav id="mobile-menu" className="d-none d-xl-block">
 				<ul>
-					<li className="has-dropdown active menu-thumb">
+					{/* <li className="has-dropdown active menu-thumb">
 						<Link to="/">
 							Home
 							<i className="fa-regular fa-plus" />
@@ -161,6 +161,17 @@ export default function Menu() {
 								<Link to="/news-details">News Details</Link>
 							</li>
 						</ul>
+					</li> */}
+
+
+					<li>
+						<Link to="/">Home</Link>
+					</li>
+					<li>
+						<Link to="/about">About Us</Link>
+					</li>
+					<li>
+						<Link to="#">Products</Link>
 					</li>
 					<li>
 						<Link to="/contact">Contact Us</Link>

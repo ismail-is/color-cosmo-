@@ -12,7 +12,7 @@ Version: 1.0.0
 	--body: #fff;
 	--black: #000;
 	--white: #fff;
-	--theme: #df1119;
+	--theme: #4A136E;
 	--theme2: #F55B1F;
 	--header: #121315;
 	--text: #666666;
@@ -6072,7 +6072,7 @@ input.main-search-input::placeholder {
 }
 
 .project-wrapper .main-box .box {
-	background-image: url(../img/project/01.jpg);
+	background-image: url(https://ismail-is.github.io/Color-Cosmo-React/static/media/8.0b7e93ee05555970932f.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -6151,19 +6151,19 @@ input.main-search-input::placeholder {
 }
 
 .project-wrapper .main-box .box.bg-1 {
-	background-image: url(../img/project/02.jpg);
+	background-image: url(https://ismail-is.github.io/Color-Cosmo-React/static/media/1.6cba29ca730d4f42c767.png);
 }
 
 .project-wrapper .main-box .box.bg-2 {
-	background-image: url(../img/project/03.jpg);
+	background-image: url(https://ismail-is.github.io/Color-Cosmo-React/static/media/5.53421d989e41164c4250.png);
 }
 
 .project-wrapper .main-box .box.bg-3 {
-	background-image: url(../img/project/04.jpg);
+	background-image: url(https://ismail-is.github.io/Color-Cosmo-React/static/media/2.835d2ddb96c99c7407b3.png);
 }
 
 .project-wrapper .main-box .box.bg-4 {
-	background-image: url(../img/project/05.jpg);
+	background-image: url(https://ismail-is.github.io/Color-Cosmo-React/static/media/6.220c4a7bb5bf72785d9c.png);
 }
 
 .project-wrapper .main-box .box.active {

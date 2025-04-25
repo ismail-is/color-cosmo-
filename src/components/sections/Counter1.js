@@ -12,11 +12,11 @@ export default function Counter1() {
             </div>
             <h2>
               <span className="count">
-                <CounterNumber count={45} />
+                <CounterNumber count={50} />
               </span>
-              k+
+              +
             </h2>
-            <p>project Complete</p>
+            <p>Years of combined experience</p>
           </div>
         </div>
       </div>
@@ -28,11 +28,11 @@ export default function Counter1() {
             </div>
             <h2>
               <span className="count">
-                <CounterNumber count={25} />
+                <CounterNumber count={10} />
               </span>
-              k+
+              +
             </h2>
-            <p>Active On Clients</p>
+            <p>Substrates</p>
           </div>
         </div>
       </div>
@@ -44,11 +44,11 @@ export default function Counter1() {
             </div>
             <h2>
               <span className="count">
-                <CounterNumber count={2} />
+                <CounterNumber count={4} />
               </span>
               +
             </h2>
-            <p>Experience Team</p>
+            <p >Types of specialized <br/>inks</p>
           </div>
         </div>
       </div>
@@ -60,11 +60,11 @@ export default function Counter1() {
             </div>
             <h2>
               <span className="count">
-                <CounterNumber count={2.4} />
+                <CounterNumber count={100} />
               </span>
-              k+
+              %
             </h2>
-            <p>Winning Awards</p>
+            <p>Customization</p>
           </div>
         </div>
       </div>

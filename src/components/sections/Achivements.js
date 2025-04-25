@@ -17,19 +17,31 @@ export default function Achivements() {
 									<div className="section-title">
 										<h6 className="wow fadeInUp">
 											<i className="fa-regular fa-arrow-left-long" />
-											ACHIVEMENTS
+											{/* ACHIVEMENTS */}
 											<i className="fa-regular fa-arrow-right-long" />
 										</h6>
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">
-											Let's Get Started We are <br /> now Transport a dream.
+										Driven by Color, Backed by Science
 										</h2>
 									</div>
+									<div><h6 className="wow fadeInUp">
+											ACHIVEMENTS
+										</h6>
 									<p className="mt-3 mt-md-0 wow fadeInUp">
-										It is a long established fact that a reader will be
-										distracted the readable content of a page when looking at
-										layout the point of using lorem the is Ipsum less Trastek
-										normal distribution of letters.
-									</p>
+									With over 50 years of combined expertise, we specialize in tailor-made ink solutions for diverse packaging materials and industries.
+									</p></div>
+									
+
+<br/>
+
+									<div><h6 className="wow fadeInUp">
+									Quality You Can Trust
+										</h6>
+									<p className="mt-3 mt-md-0 wow fadeInUp">
+									Our ISO-certified facility, rigorous testing, and high-grade materials ensure consistent performance and customer satisfaction across every order.
+									</p></div>
+
+									
 									<Counter1 />
 								</div>
 							</div>

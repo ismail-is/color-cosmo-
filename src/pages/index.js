@@ -16,16 +16,18 @@ export default function Home() {
 		<>
 			<Layout headerStyle={1} footerStyle={1}>
 				<Hero1 />
+				
 				<About1 />
+				<News1 />
 				<Service1 />
-				<CtaBanner />
+				{/* <CtaBanner /> */}
 				<OurSkills />
 				<Testimonial1 />
 				<Project1 />
 				<Faq />
 				<Team1 />
 				<Contact />
-				<News1 />
+				
 				<Brand1 />
 			</Layout>
 		</>

@@ -35,33 +35,54 @@ const swiperOptions = {
 export default function Brand1({ alt }) {
 	return (
 		<>
-			<div className={`brand-section fix section-padding ${alt ? "pt-0 section-bg-2" : ""}`}>
+			<div className={`brand-section fix section-padding ${alt ? "pt-0 section-bg-2" : ""}`} style={{marginTop:'-130px'}}>
 				<div className="container">
+				<div className="section-title text-center">
+						<h6 className="wow fadeInUp">
+							<i className="fa-regular fa-arrow-left-long" />
+							
+							<i className="fa-regular fa-arrow-right-long" />
+						</h6>
+						<h2 className="wow fadeInUp" data-wow-delay=".2s">
+						Some Of The Brands We have<br/>
+						Worked With
+						</h2>
+					</div>
 					<div className="swiper brand-slider">
 						<Swiper {...swiperOptions} className="swiper-wrapper">
 							<SwiperSlide className="swiper-slide">
 								<div className="brand-image center">
-									<img src="assets/img/brand/brand-logo.png" alt="img" />
+									<img src="assets/img/allimg/client/1.png" alt="img" />
 								</div>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="brand-image center">
-									<img src="assets/img/brand/brand-logo-2.png" alt="img" />
+								<img src="assets/img/allimg/client/2.png" alt="img" />
 								</div>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="brand-image center">
-									<img src="assets/img/brand/brand-logo-3.png" alt="img" />
+								<img src="assets/img/allimg/client/3.png" alt="img" />
 								</div>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="brand-image center">
-									<img src="assets/img/brand/brand-logo-4.png" alt="img" />
+								<img src="assets/img/allimg/client/4.png" alt="img" />
 								</div>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="brand-image center">
-									<img src="assets/img/brand/brand-logo-5.png" alt="img" />
+								<img src="assets/img/allimg/client/5.png" alt="img" />
+								</div>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<div className="brand-image center">
+								<img src="assets/img/allimg/client/6.png" alt="img" />
+								</div>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<div className="brand-image center">
+								<img src="assets/img/allimg/client/7.png" alt="img" />
 								</div>
 							</SwiperSlide>
 						</Swiper>

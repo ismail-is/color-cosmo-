@@ -8,7 +8,7 @@ export default function ContactInfo() {
 				<div className="section-title text-center">
 					<h6 className="wow fadeInUp">
 						<i className="fa-regular fa-arrow-left-long" />
-						CONTACT US
+					
 						<i className="fa-regular fa-arrow-right-long" />
 					</h6>
 					<h2 className="wow fadeInUp" data-wow-delay=".4s">
@@ -22,13 +22,13 @@ export default function ContactInfo() {
 					>
 						<div className="contact-box-items">
 							<div className="icon">
-								<img src="assets/img/icon/18.svg" alt="img" />
+							<i className="far fa-location-dot" />
 							</div>
 							<div className="content">
 								<h3>Our Address</h3>
 								<p>
-									2715 Ash Dr. San Jose,
-									<br /> South Dakota 83475
+								Warehouse B1-13, Gate 1, 
+									<br /> Ajman Freezone, Ajman, UAE
 								</p>
 							</div>
 						</div>
@@ -39,15 +39,13 @@ export default function ContactInfo() {
 					>
 						<div className="contact-box-items">
 							<div className="icon">
-								<img src="assets/img/icon/19.svg" alt="img" />
+							<i className="far fa-envelope" />
 							</div>
 							<div className="content">
 								<h3>Email Address</h3>
 								<p>
-									Mobile :<Link to="/tel:984756123695">9847 5612 3695</Link>{" "}
-									<br />
-									Email :
-									<Link to="/mailto:example@gmail.com">example@gmail.com</Link>
+							
+									<Link to="/mailto:info@colorcosmo.com">info@colorcosmo.com</Link>
 								</p>
 							</div>
 						</div>
@@ -58,12 +56,13 @@ export default function ContactInfo() {
 					>
 						<div className="contact-box-items">
 							<div className="icon">
-								<img src="assets/img/icon/20.svg" alt="img" />
+							<i className="far fa-phone-volume" />
 							</div>
 							<div className="content">
-								<h3>Hours of Operation</h3>
+								<h3>Phone Number</h3>
 								<p>
-									Monday-Saturday : 8:00 - <br /> 9:00 Sunday : Closed
+									<Link to="/tel:0589996806">+058 999 6806</Link>{" "}
+									
 								</p>
 							</div>
 						</div>

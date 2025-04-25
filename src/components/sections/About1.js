@@ -52,33 +52,30 @@ export default function About1() {
 											<i className="fa-regular fa-arrow-right-long" />
 										</h6>
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">
-											Leading Global Logistic And Transport Agency
+										Our Ink Solutions,Crafted to Performimg
 										</h2>
 									</div>
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
-										It is a long established fact that a reader will be
-										distracted the readable content of a page when looking at
-										layout the point of using lorem the is Ipsum less normal
-										distribution of letters.
+									We manufacture custom industrial inks for dry offset, screen, UV offset, and letterpress printing—designed for durability, brilliance, and precision across all packaging types.
 									</p>
 									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											We will never compromise the safety of our people
+											Precision-Engineered Inks for Unmatched Print Quality
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											With over four decades of experience providing solutions
+											Custom Ink Solutions Tailored to Your Printing Needs
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											We see projects through and proactively develop solutions
+											Reliable and High-Performance Inks for Every Application
 										</li>
 									</ul>
-									<div className="about-author">
+									{/* <div className="about-author">
 										<div
 											className="author-image wow fadeInUp"
 											data-wow-delay=".2s"
@@ -95,7 +92,7 @@ export default function About1() {
 											className="wow fadeInUp"
 											data-wow-delay=".4s"
 										/>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

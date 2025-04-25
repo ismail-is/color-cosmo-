@@ -2,7 +2,7 @@
 export default function OurSkills({ alt }) {
 	return (
 		<>
-			<section className={`skills-section fix section-padding ${alt ? "section-bg-2" : " pt-0"}`}>
+			<section className={`skills-section fix section-padding ${alt ? "section-bg-2" : " pt-10"}`}>
 				<div className="shape-1 float-bob-x">
 					<img src="assets/img/skills/shape-1.png" alt="img" />
 				</div>
