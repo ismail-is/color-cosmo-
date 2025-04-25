@@ -23,9 +23,9 @@ import NotFound from "./pages/404.js"
 export default function MainRouter() {
 	return (
 		<>
-			<BrowserRouter>
+			<BrowserRouter basename="/color-cosmo-">
 				<Routes>
-					<Route path="/color-cosmo-" element={<Home />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					{/* <Route path="/blog" element={<Blog />} /> */}
 					<Route path="/contact" element={<Contact />} />
