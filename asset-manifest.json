@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/color-cosmo-/static/css/main.3f175799.css",
-    "main.js": "/color-cosmo-/static/js/main.e9153c00.js",
+    "main.css": "/color-cosmo-/static/css/main.a9c47f62.css",
+    "main.js": "/color-cosmo-/static/js/main.821451a1.js",
     "static/js/453.96226902.chunk.js": "/color-cosmo-/static/js/453.96226902.chunk.js",
     "static/media/fa-duotone-900.ttf": "/color-cosmo-/static/media/fa-duotone-900.0f2e11ce9677158aeab0.ttf",
     "static/media/fa-thin-100.ttf": "/color-cosmo-/static/media/fa-thin-100.68dbc01fde3867384907.ttf",
@@ -15,17 +15,21 @@
     "static/media/fa-solid-900.woff2": "/color-cosmo-/static/media/fa-solid-900.0b983aed44ba64c5da4d.woff2",
     "static/media/fa-brands-400.ttf": "/color-cosmo-/static/media/fa-brands-400.3139198fd214a3ac6d46.ttf",
     "static/media/fa-brands-400.woff2": "/color-cosmo-/static/media/fa-brands-400.2609c565b2064f577886.woff2",
+    "static/media/3.png": "/color-cosmo-/static/media/3.37878d88d691367bc06a.png",
+    "static/media/4.png": "/color-cosmo-/static/media/4.3af9e946cad15a551faa.png",
+    "static/media/1.png": "/color-cosmo-/static/media/1.27bab389b8e4124635e7.png",
+    "static/media/2.png": "/color-cosmo-/static/media/2.772ff124aa5f4b7444cc.png",
     "static/media/fa-v4compatibility.ttf": "/color-cosmo-/static/media/fa-v4compatibility.cd0fdf1f864652991c5e.ttf",
     "static/media/fa-v4compatibility.woff2": "/color-cosmo-/static/media/fa-v4compatibility.f2ff997b674f095c0aa2.woff2",
     "index.html": "/color-cosmo-/index.html",
     "static/media/plus.svg": "/color-cosmo-/static/media/plus.a31b38430d50ec59919d.svg",
     "static/media/minus.svg": "/color-cosmo-/static/media/minus.d146b6c2c8051576bbdf.svg",
-    "main.3f175799.css.map": "/color-cosmo-/static/css/main.3f175799.css.map",
-    "main.e9153c00.js.map": "/color-cosmo-/static/js/main.e9153c00.js.map",
+    "main.a9c47f62.css.map": "/color-cosmo-/static/css/main.a9c47f62.css.map",
+    "main.821451a1.js.map": "/color-cosmo-/static/js/main.821451a1.js.map",
     "453.96226902.chunk.js.map": "/color-cosmo-/static/js/453.96226902.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f175799.css",
-    "static/js/main.e9153c00.js"
+    "static/css/main.a9c47f62.css",
+    "static/js/main.821451a1.js"
   ]
 }
