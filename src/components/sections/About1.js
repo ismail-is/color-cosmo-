@@ -30,12 +30,12 @@ export default function About1() {
 									>
 										<img src="assets/img/about/02.jpg" alt="img" />
 										<div className="video-box">
-											<a
+											{/* <a
 												onClick={() => setOpen(true)}
 												className="video-btn video-popup"
 											>
 												<i className="fas fa-play" />
-											</a>
+											</a> */}
 										</div>
 									</div>
 									<div className="about-line-shape">
@@ -48,7 +48,7 @@ export default function About1() {
 									<div className="section-title">
 										<h6 className="wow fadeInUp">
 											<i className="fa-regular fa-arrow-left-long" />
-											about us
+											{/* About Color Cosmo */}
 											<i className="fa-regular fa-arrow-right-long" />
 										</h6>
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">

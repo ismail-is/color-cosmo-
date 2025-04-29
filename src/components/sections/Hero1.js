@@ -129,11 +129,11 @@ export default function Hero1() {
 									</Swiper>
 									<div className="array-button">
 										<button className="array-prevs h1p">
-											<img src="assets/img/hero/prev.png" alt="img" />
+										<i className="fa-regular fa-arrow-left-long"  style={{color:'white'}}/>
 											Previews
 										</button>
-										<button className="array-nexts h1n">
-											Next <img src="assets/img/hero/next.png" alt="img" />
+										<button className="array-prevs h1p">
+											Next	<i className="fa-regular fa-arrow-right-long"  style={{color:'white'}}/>
 										</button>
 									</div>
 								</div>

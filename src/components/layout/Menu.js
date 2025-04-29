@@ -170,8 +170,12 @@ export default function Menu() {
 					<li>
 						<Link to="/about">About Us</Link>
 					</li>
+					
 					<li>
-						<Link to="#">Products</Link>
+						<Link to="/service">Our Services</Link>
+					</li>
+					<li>
+						<Link to="/products">Products</Link>
 					</li>
 					<li>
 						<Link to="/contact">Contact Us</Link>

@@ -42,19 +42,23 @@ export default function Achivements() {
 									</p></div>
 
 									
-									<Counter1 />
+									{/* <Counter1 /> */}
 								</div>
 							</div>
 							<div
-								className="col-xxl-4 col-xl-5 col-lg-6 wow fadeInUp"
+								className="col-xxl-6 col-xl-5 col-lg-6 wow fadeInUp"
 								data-wow-delay=".2s"
 							>
-								<div className="achivements-image">
+								<div className="achivements-content">
+								
+									<Counter1 />
+								</div>
+								{/* <div className="achivements-image">
 									<img src="assets/img/achivements-image.jpg" alt="img" />
 									<div className="achivements-image-2 float-bob-y">
 										<img src="assets/img/achivements-image-2.jpg" alt="img" />
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>

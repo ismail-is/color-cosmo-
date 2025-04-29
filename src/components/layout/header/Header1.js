@@ -6,7 +6,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 		<>
 
 			<header className="header-section-22">
-				<div className="header-top-sectionss top-style-2 fix">
+				{/* <div className="header-top-sectionss top-style-2 fix">
 					<div className="container-fluid">
 						<div className="header-top-wrappers style-2">
 							<ul className="contact-list">
@@ -36,7 +36,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div id="header-sticky" className={`header-1 ${scroll ? "sticky" : ""}`}>
 					<div className="main-logo">
 						<Link to="/">
@@ -48,7 +48,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 							<div className="header-main">
 								<div className="logo d-none">
 									<Link to="/" className="header-logo">
-										<img src="assets/img/allimg/logo.png" alt="logo-img" />
+										<img src="assets/img/allimg/footerlogo.png" alt="logo-img" />
 									</Link>
 								</div>
 								<div className="header-left">
@@ -60,16 +60,16 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 										</div>
 									</div>
 								</div>
-								{/* <div className="header-right d-flex justify-content-end align-items-center">
-									<a className="search-trigger search-icon" onClick={handleSearch}>
+								<div className="header-right d-flex justify-content-end align-items-center">
+									{/* <a className="search-trigger search-icon" onClick={handleSearch}>
 										<i className="fal fa-search" />
-									</a>
-									<div className="header-button">
+									</a> */}
+									{/* <div className="header-button">
 										<Link to="/contact" className="theme-btn">
 											Contact us
 											<i className="fa-solid fa-arrow-right-long" />
 										</Link>
-									</div>
+									</div> */}
 									<div className="header__hamburger d-xl-none my-auto">
 										<div
 											className="sidebar__toggle"
@@ -79,7 +79,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 											<i className="fas fa-bars" />
 										</div>
 									</div>
-								</div> */}
+								</div>
 							</div>
 						</div>
 					</div>

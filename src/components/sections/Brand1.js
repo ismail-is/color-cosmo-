@@ -15,7 +15,7 @@ const swiperOptions = {
 	},
 	breakpoints: {
 		1199: {
-			slidesPerView: 5,
+			slidesPerView: 6,
 		},
 		991: {
 			slidesPerView: 4,
@@ -27,7 +27,7 @@ const swiperOptions = {
 			slidesPerView: 2,
 		},
 		0: {
-			slidesPerView: 1,
+			slidesPerView: 3,
 		},
 	},
 }
@@ -38,14 +38,13 @@ export default function Brand1({ alt }) {
 			<div className={`brand-section fix section-padding ${alt ? "pt-0 section-bg-2" : ""}`} style={{marginTop:'-130px'}}>
 				<div className="container">
 				<div className="section-title text-center">
-						<h6 className="wow fadeInUp">
+						{/* <h6 className="wow fadeInUp">
 							<i className="fa-regular fa-arrow-left-long" />
 							
 							<i className="fa-regular fa-arrow-right-long" />
-						</h6>
+						</h6> */}
 						<h2 className="wow fadeInUp" data-wow-delay=".2s">
-						Some Of The Brands We have<br/>
-						Worked With
+						Our <span style={{color:' rgb(203, 35, 154)'}}> Customers</span> 
 						</h2>
 					</div>
 					<div className="swiper brand-slider">

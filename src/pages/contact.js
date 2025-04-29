@@ -4,6 +4,7 @@ import ContactInfo from "../components/sections/contact/ContactInfo"
 import ContactInfo2 from "../components/sections/contact/ContactInfo2"
 import ContactSection from "../components/sections/contact/ContactSection"
 import Contacts from "../components/sections/Contact"
+import Whatsapp from "../components/sections/Whatsapp"
 
 export default function Contact() {
 	return (
@@ -13,7 +14,8 @@ export default function Contact() {
 				<Contacts />
 				{/* <ContactSection /> */}
 				<ContactInfo2 />
-				<Brand1 />
+				{/* <Brand1 /> */}
+				<Whatsapp/>
 			</Layout>
 		</>
 	)

@@ -19,16 +19,18 @@ import Service from "./pages/service.js"
 import TeamDetails from "./pages/team-details.js"
 import Team from "./pages/team.js"
 import NotFound from "./pages/404.js"
+import Products from './pages/products.js'
 
 export default function MainRouter() {
 	return (
 		<>
-			<BrowserRouter basename="/color-cosmo-">
+			<BrowserRouter >
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					{/* <Route path="/blog" element={<Blog />} /> */}
 					<Route path="/contact" element={<Contact />} />
+					<Route path="/products" element={<Products />} />
 					<Route path="/faq" element={<Faq />} />
 					<Route path="/index-2" element={<Index2 />} />
 					<Route path="/index-one" element={<IndexOne />} />

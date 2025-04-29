@@ -5,11 +5,11 @@ export default function Contact() {
 		<>
 			<section
 				className="contact-section fix section-padding bg-cover" id="contact"
-				style={{ backgroundImage: 'url("assets/img/contact-bg.jpg")' }}
+				style={{ backgroundImage: 'url("assets/img/contact-bg.jpg")',marginBottom:'1px' }}
 			>
-				<div className="contact-image float-bob-x">
+				{/* <div className="contact-image float-bob-x">
 					<img src="assets/img/contact-img-shape.png" alt="img" />
-				</div>
+				</div> */}
 				<div className="container">
 					<div className="contact-wrapper">
 						<div className="row g-4 align-items-center">
@@ -95,7 +95,7 @@ export default function Contact() {
 												data-wow-delay=".4s"
 											>
 												<button type="submit" className="theme-btn">
-													Send message <i className="fas fa-long-arrow-right" />
+												Submit<i className="fas fa-long-arrow-right" />
 												</button>
 											</div>
 										</div>
@@ -131,9 +131,9 @@ export default function Contact() {
 											<i className="fa-solid fa-phone-volume" />
 										</div>
 										<div className="content">
-											<span>call emergency</span>
+											<span>Call emergency to Enquire Now	</span>
 											<h4>
-												<Link to="/tel:+88012365499">+88 0123 654 99</Link>
+												<Link to="/tel:+0589996806">+058 999 6806</Link>
 											</h4>
 										</div>
 									</div>

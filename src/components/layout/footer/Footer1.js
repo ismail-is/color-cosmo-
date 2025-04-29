@@ -9,7 +9,36 @@ export default function Footer1() {
 				style={{ backgroundImage: 'url("assets/img/footer/bg.jpg")' }}
 			>
 				<div className="container">
-					<div className="contact-info-area">
+
+<br/>
+					<div className="contact-info-area"  >
+						
+						<div
+							className="contact-info-items wow fadeInUp"
+							data-wow-delay=".4s"
+						>
+							
+							<div className="content">
+								{/* <p>Our Address</p> */}
+								<h3>Get in Touch and Elevate Your Digital Presence Today!</h3>
+								<p>Reach out to enhance your digital presence and start your journey toward remarkable growth</p>
+							</div>
+						</div>
+					
+						<div
+							className="contact-info-items wow fadeInUp"
+							data-wow-delay=".8s"
+						>
+							
+							<div className="contact">
+							<button type="submit" className="theme-btn">
+							Contact Us<i className="fas fa-long-arrow-right" />
+												</button>
+							</div>
+						</div>
+					</div>
+{/* old */}
+					{/* <div className="contact-info-area" >
 						<Link
 							to="/"
 							className="logo-img wow fadeInUp"
@@ -58,18 +87,26 @@ export default function Footer1() {
 								</h3>
 							</div>
 						</div>
-					</div>
+					</div> */}
+{/* old */}
 					<div className="footer-widgets-wrapper">
 						<div className="row">
 							<div
-								className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
+								className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
 								data-wow-delay=".2s"
 							>
 								<div className="single-footer-widget">
 									<div className="widget-head">
-										<h5>About Company</h5>
+										{/* <h5>About Company</h5> */}
 									</div>
 									<div className="footer-content">
+									<Link
+							to="/"
+							className="logo-img wow fadeInUp"
+							data-wow-delay=".2s"
+						>
+							<img src="assets/img/allimg/footerlogo.png" alt="img" />
+						</Link>
 										<p>
 										Advanced ink technology for seamless printing results. Consistency, reliability, and excellence
 										</p>
@@ -109,7 +146,13 @@ export default function Footer1() {
 											</Link>
 										</li>
 										<li>
-											<Link to="/">
+											<Link to="/service">
+												<i className="fa-solid fa-chevrons-right" />
+												Our Services
+											</Link>
+										</li>
+										<li>
+											<Link to="/products">
 												<i className="fa-solid fa-chevrons-right" />
 												Products
 											</Link>
@@ -134,7 +177,7 @@ export default function Footer1() {
 									</div>
 									<ul className="list-area">
 										<li>
-											<Link to="/">
+											<Link to="/products">
 												<i className="fa-solid fa-chevrons-right" />
 												Dry Offset Inks
 
@@ -142,28 +185,28 @@ export default function Footer1() {
 											</Link>
 										</li>
 										<li>
-											<Link to="/">
+											<Link to="/products">
 												<i className="fa-solid fa-chevrons-right" />
 												
 												Screen Printing Inks
 											</Link>
 										</li>
 										<li>
-											<Link to="/">
+											<Link to="/products">
 												<i className="fa-solid fa-chevrons-right" />
 												UV Offset Printing Inks
 
 											</Link>
 										</li>
 										<li>
-											<Link to="/">
+											<Link to="/products">
 												<i className="fa-solid fa-chevrons-right" />
 												
 												UV Letterpress Inks
 											</Link>
 										</li>
 										<li>
-											<Link to="/">
+											<Link to="/products">
 												<i className="fa-solid fa-chevrons-right" />
 												
 												UV varnishes and consumables
@@ -176,15 +219,40 @@ export default function Footer1() {
 							</div>
 							<div
 								className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
+								data-wow-delay=".6s"
+							>
+								<div className="single-footer-widget">
+									<div className="widget-head">
+										<h5>Contact Us	</h5>
+									</div>
+									<ul className="list-area">
+										<li>
+										<p style={{color:'rgb(217 217 215 / 80%)'}}>Warehouse B1-13, Gate<br/> 1,Ajman Freezone, Ajman, UAE</p>
+										</li>
+										<li>
+									<Link to="/mailto:info@colorcosmo.com">info@colorcosmo.com</Link>
+										</li>
+										
+										<li>
+									<Link to="/tel:+0589996806">+058 999 6806</Link>
+										</li>
+										
+									
+										
+									</ul>
+								</div>
+							</div>
+							<div
+								className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
 								data-wow-delay=".8s"
 							>
 								<div className="single-footer-widget">
 									<div className="widget-head">
-										<h5>Instagram</h5>
+										{/* <h5>Instagram</h5> */}
 									</div>
 									<div className="footer-gallery">
 										<div className="gallery-wrap">
-											<Gallery />
+											{/* <Gallery /> */}
 											{/* <div className="gallery-item">
 												<div className="thumb">
 													<Link

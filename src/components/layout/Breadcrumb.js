@@ -8,7 +8,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
 				style={{ backgroundImage: 'url("assets/img/breadcrumb-bg.jpg")' }}
 			>
 				<div className="shape-image float-bob-y">
-					<img src="assets/img/vector.png" alt="img" />
+					<img src="assets/img/allimg/bg/bannershap.png" alt="img" />
 				</div>
 				<div className="container">
 					<div className="breadcrumb-wrapper-items">

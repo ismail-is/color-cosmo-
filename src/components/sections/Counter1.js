@@ -20,22 +20,7 @@ export default function Counter1() {
           </div>
         </div>
       </div>
-      <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-        <div className="counter-items">
-          <div className="content">
-            <div className="icon">
-              <img src="assets/img/icon/12.svg" alt="img" />
-            </div>
-            <h2>
-              <span className="count">
-                <CounterNumber count={10} />
-              </span>
-              +
-            </h2>
-            <p>Substrates</p>
-          </div>
-        </div>
-      </div>
+    
       <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
         <div className="counter-items">
           <div className="content">
@@ -49,6 +34,22 @@ export default function Counter1() {
               +
             </h2>
             <p >Types of specialized <br/>inks</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+        <div className="counter-items">
+          <div className="content">
+            <div className="icon">
+              <img src="assets/img/icon/12.svg" alt="img" />
+            </div>
+            <h2>
+              <span className="count">
+                <CounterNumber count={10} />
+              </span>
+              +
+            </h2>
+            <p>Substrates</p>
           </div>
         </div>
       </div>

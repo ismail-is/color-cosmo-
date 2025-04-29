@@ -11,7 +11,7 @@ export default function Offcanvas({ isOffCanvas, handleOffCanvas }) {
 							<div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
 								<div className="offcanvas__logo">
 									<Link to="/">
-										<img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+										<img src="assets/img/allimg/logo.png" alt="logo-img" />
 									</Link>
 								</div>
 								<div className="offcanvas__close">
@@ -21,12 +21,10 @@ export default function Offcanvas({ isOffCanvas, handleOffCanvas }) {
 								</div>
 							</div>
 							<p className="text d-none d-xl-block">
-								Nullam dignissim, ante scelerisque the is euismod fermentum odio
-								sem semper the is erat, a feugiat leo urna eget eros. Duis
-								Aenean a imperdiet risus.
+							
 							</p>
 							<MobileMenu />
-							<div className="offcanvas__contact">
+							{/* <div className="offcanvas__contact">
 								<h4>Contact Info</h4>
 								<ul>
 									<li className="d-flex align-items-center">
@@ -92,7 +90,7 @@ export default function Offcanvas({ isOffCanvas, handleOffCanvas }) {
 										<i className="fab fa-linkedin-in" />
 									</Link>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>

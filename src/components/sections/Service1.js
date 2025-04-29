@@ -49,20 +49,19 @@ export default function Service1() {
 		<>
 			<section
 				className="service-section fix section-padding bg-cover"
-				style={{ backgroundImage: 'url("assets/img/service/service-bg.jpg")' }}
+				style={{ backgroundImage: 'url("assets/img/allimg/bg/bg.png")' }}
 			>
 				<div className="container">
 					<div className="section-title text-center">
-						<h6 className="wow fadeInUp">
+						<h6 className="wow fadeInUp" style={{color:'#CB239A'}}>
 							<i className="fa-regular fa-arrow-left-long" />
-							WHAT WE Do
+							our process
 							<i className="fa-regular fa-arrow-right-long" />
 						</h6>
 						<h2 className="wow fadeInUp text-white" data-wow-delay=".2s">
-							We Offers Cost Effecient
-							<br />
-							Transport Shipping
+						Our Work Process
 						</h2>
+						<h5 className="wow fadeInUp text-white" data-wow-delay=".2s" style={{marginTop:'70px', fontWeight:'normal'}}>We follow a streamlined process to ensure top-quality UV & LED inks and coatings. From R&D to production, every step is expertly managed to deliver durable, high-performance printing solutions.</h5>
 					</div>
 					<div className="array-button">
 						<button className="array-prev h1p">
@@ -79,136 +78,94 @@ export default function Service1() {
 							<SwiperSlide className="swiper-slide">
 								<div className="service-box-items">
 									<div className="service-thumb">
-										<img src="assets/img/service/01.jpg" alt="img" />
-										<div className="icon">
+										<img src="assets/img/allimg/process/1.png" alt="img" />
+										{/* <div className="icon">
 											<i className="fa-regular fa-truck-fast" />
-										</div>
+										</div> */}
 									</div>
 									<div className="service-content">
 										<h2 className="number">01</h2>
 										<h3>
-											<Link to="/service-details">Road Fright</Link>
+											<Link to="#">Research & Development</Link>
 										</h3>
-										<p>
-											Consectetur Phasellus a odio vel sapien pharetra placerat.
+										<p >
+										We innovate and refine UV, UV LED ink formulations to ensure superior performance and quality.
 										</p>
-										<Link to="/service-details" className="link-btn">
+										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />
-										</Link>
+										</Link> */}
 									</div>
 								</div>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="service-box-items">
 									<div className="service-thumb">
-										<img src="assets/img/service/02.jpg" alt="img" />
-										<div className="icon">
+										<img src="assets/img/allimg/process/2.png" alt="img" />
+										{/* <div className="icon">
 											<i className="fa-regular fa-truck-front" />
-										</div>
+										</div> */}
 									</div>
 									<div className="service-content">
 										<h2 className="number">02</h2>
 										<h3>
-											<Link to="/service-details">Airplane Fright</Link>
+										<Link to="#">Precision Manufacturing</Link>
 										</h3>
 										<p>
-											Consectetur Phasellus a odio vel sapien pharetra placerat.
+										Using advanced technology, we produce high-quality inks and coatings with excellent adhesion and durability.
 										</p>
-										<Link to="/service-details" className="link-btn">
+										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />
-										</Link>
+										</Link> */}
 									</div>
 								</div>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="service-box-items">
 									<div className="service-thumb">
-										<img src="assets/img/service/03.jpg" alt="img" />
-										<div className="icon">
+										<img src="assets/img/allimg/process/3.png" alt="img" />
+										{/* <div className="icon">
 											<i className="fas fa-pallet" />
-										</div>
+										</div> */}
 									</div>
 									<div className="service-content">
 										<h2 className="number">03</h2>
 										<h3>
-											<Link to="/service-details">Ship Fright</Link>
+										<Link to="#">Quality Assurance</Link>
 										</h3>
 										<p>
-											Consectetur Phasellus a odio vel sapien pharetra placerat.
+										Every product undergoes strict testing to meet industry standards for consistency, curing speed, and longevity.
 										</p>
-										<Link to="/service-details" className="link-btn">
+										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />
-										</Link>
+										</Link> */}
 									</div>
 								</div>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="service-box-items">
 									<div className="service-thumb">
-										<img src="assets/img/service/04.jpg" alt="img" />
-										<div className="icon">
+										<img src="assets/img/allimg/process/4.png" alt="img" />
+										{/* <div className="icon">
 											<i className="fas fa-shipping-fast" />
-										</div>
+										</div> */}
 									</div>
 									<div className="service-content">
 										<h2 className="number">04</h2>
 										<h3>
-											<Link to="/service-details">Airplane Fright</Link>
+										<Link to="#">Support & Delivery</Link>
 										</h3>
 										<p>
-											Consectetur Phasellus a odio vel sapien pharetra placerat.
+										We provide tailored solutions, reliable distribution, and expert technical support for seamless application
 										</p>
-										<Link to="/service-details" className="link-btn">
+										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />
-										</Link>
+										</Link> */}
 									</div>
 								</div>
 							</SwiperSlide>
 
-							<SwiperSlide className="swiper-slide">
-								<div className="service-box-items">
-									<div className="service-thumb">
-										<img src="assets/img/service/01.jpg" alt="img" />
-										<div className="icon">
-											<i className="fa-regular fa-truck-fast" />
-										</div>
-									</div>
-									<div className="service-content">
-										<h2 className="number">01</h2>
-										<h3>
-											<Link to="/service-details">Road Fright</Link>
-										</h3>
-										<p>
-											Consectetur Phasellus a odio vel sapien pharetra placerat.
-										</p>
-										<Link to="/service-details" className="link-btn">
-											Explore More <i className="fa-solid fa-arrow-right" />
-										</Link>
-									</div>
-								</div>
-							</SwiperSlide>
-							<SwiperSlide className="swiper-slide">
-								<div className="service-box-items">
-									<div className="service-thumb">
-										<img src="assets/img/service/02.jpg" alt="img" />
-										<div className="icon">
-											<i className="fa-regular fa-truck-front" />
-										</div>
-									</div>
-									<div className="service-content">
-										<h2 className="number">02</h2>
-										<h3>
-											<Link to="/service-details">Airplane Fright</Link>
-										</h3>
-										<p>
-											Consectetur Phasellus a odio vel sapien pharetra placerat.
-										</p>
-										<Link to="/service-details" className="link-btn">
-											Explore More <i className="fa-solid fa-arrow-right" />
-										</Link>
-									</div>
-								</div>
-							</SwiperSlide>
+							
+						
 						</Swiper>
 					</div>
 				</div>

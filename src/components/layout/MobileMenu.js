@@ -20,7 +20,7 @@ export default function MobileMenu() {
 				</Link>
 				<nav className="mean-nav">
 					<ul>
-						<li className="has-dropdown active menu-thumb">
+						{/* <li className="has-dropdown active menu-thumb">
 							<Link to="/">
 								Home
 								<i className="fa-regular fa-plus" />
@@ -82,9 +82,7 @@ export default function MobileMenu() {
 							<a className="mean-expand" onClick={() => handleAccordion(2)} style={{ fontSize: 18 }}>
 								<i className="far fa-plus" /></a>
 						</li>
-						<li>
-							<Link to="/about">About Us</Link>
-						</li>
+						
 						<li className="has-dropdown">
 							<Link to="/news">
 								Pages
@@ -136,7 +134,20 @@ export default function MobileMenu() {
 							</ul>
 							<a className="mean-expand" onClick={() => handleAccordion(6)} style={{ fontSize: 18 }}>
 								<i className="far fa-plus" /></a>
+						</li> */}
+						<li>
+							<Link to="/">Home</Link>
 						</li>
+						<li>
+							<Link to="/about">About </Link>
+						</li>
+						<li>
+							<Link to="/products">products</Link>
+						</li>
+						<li>
+							<Link to="/service">our service</Link>
+						</li>
+						
 						<li className="mean-last">
 							<Link to="/contact">Contact Us</Link>
 						</li>

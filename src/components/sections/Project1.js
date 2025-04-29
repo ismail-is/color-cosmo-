@@ -51,9 +51,9 @@ export default function Project1() {
 							<div className="box wow fadeInUp">
 								<div className="project-content">
 									<h3>
-										<Link to="/project-details">quality equipment</Link>
+										<Link to="#">quality equipment</Link>
 									</h3>
-									<Link to="/project-details" className="icon">
+									<Link to="#" className="icon">
 										<i className="fa-solid fa-arrow-right" />
 									</Link>
 								</div>
@@ -62,9 +62,9 @@ export default function Project1() {
 							<div className="box bg-1 wow fadeInUp wow" data-wow-delay=".2s">
 								<div className="project-content">
 									<h3>
-										<Link to="/project-details">quality equipment</Link>
+										<Link to="#">quality equipment</Link>
 									</h3>
-									<Link to="/project-details" className="icon">
+									<Link to="#" className="icon">
 										<i className="fa-solid fa-arrow-right" />
 									</Link>
 								</div>
@@ -76,9 +76,9 @@ export default function Project1() {
 							>
 								<div className="project-content">
 									<h3>
-										<Link to="/project-details">quality equipment</Link>
+										<Link to="#">quality equipment</Link>
 									</h3>
-									<Link to="/project-details" className="icon">
+									<Link to="#" className="icon">
 										<i className="fa-solid fa-arrow-right" />
 									</Link>
 								</div>
@@ -87,9 +87,9 @@ export default function Project1() {
 							<div className="box bg-3 wow fadeInUp wow" data-wow-delay=".6s">
 								<div className="project-content">
 									<h3>
-										<Link to="/project-details">quality equipment</Link>
+										<Link to="#">quality equipment</Link>
 									</h3>
-									<Link to="/project-details" className="icon">
+									<Link to="#" className="icon">
 										<i className="fa-solid fa-arrow-right" />
 									</Link>
 								</div>
@@ -98,9 +98,9 @@ export default function Project1() {
 							<div className="box bg-4 wow fadeInUp wow" data-wow-delay=".8s">
 								<div className="project-content">
 									<h3>
-										<Link to="/project-details">quality equipment</Link>
+										<Link to="#">quality equipment</Link>
 									</h3>
-									<Link to="/project-details" className="icon">
+									<Link to="#" className="icon">
 										<i className="fa-solid fa-arrow-right" />
 									</Link>
 								</div>

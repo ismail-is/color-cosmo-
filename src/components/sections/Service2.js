@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 
 const swiperOptions = {
 	modules: [Autoplay, Pagination, Navigation],
-	slidesPerView: 4,
+	slidesPerView: 3,
 	spaceBetween: 30,
 	autoplay: {
 		delay: 2500,
@@ -29,11 +29,11 @@ const swiperOptions = {
 
 	breakpoints: {
 		320: {
-			slidesPerView: 2,
+			slidesPerView: 1,
 			spaceBetween: 30,
 		},
 		575: {
-			slidesPerView: 2,
+			slidesPerView: 1,
 			spaceBetween: 30,
 		},
 		767: {
@@ -41,15 +41,15 @@ const swiperOptions = {
 			spaceBetween: 30,
 		},
 		991: {
-			slidesPerView: 4,
+			slidesPerView: 3,
 			spaceBetween: 30,
 		},
 		1199: {
-			slidesPerView: 4,
+			slidesPerView: 3,
 			spaceBetween: 30,
 		},
 		1350: {
-			slidesPerView: 4,
+			slidesPerView: 3,
 			spaceBetween: 30,
 		},
 	},
@@ -58,20 +58,22 @@ const swiperOptions = {
 export default function Service2() {
 	return (
 		<>
-			<section className="service-section fix section-padding section-bg" id="services">
-				<div className="bg-shape">
+			<section className="service-section fix section-padding section-bg" id="services" style={{backgroundColor:'#4A136E'}}>
+				{/* <div className="bg-shape">
 					<img src="assets/img/service/bg-shape.png" alt="img" />
-				</div>
+				</div> */}
 				<div className="container">
 					<div className="section-title text-center">
 						<h6 className="wow fadeInUp">
 							<i className="fa-regular fa-arrow-left-long" />
-							quality Services
+							our services
 							<i className="fa-regular fa-arrow-right-long" />
 						</h6>
 						<h2 className="text-white wow fadeInUp" data-wow-delay=".2s">
-							Best Of our High Quality <br /> constriction
+						Innovative Solutions in <br/> Coatings &
+						Inks!
 						</h2>
+						<p style={{color:'white',fontWeight:'initial'}}>We offer a comprehensive range of services, including custom color matching, specialty coatings, and high-performance UV, UV LED  printing inks, tailored to meet the diverse needs of various industries. Our expertise ensures precision, durability, and vibrant results across all applications. With cutting-edge technology and a commitment to quality, we deliver innovative solutions that enhance product performance and visual appeal.</p>
 					</div>
 				</div>
 				<div className="container-fluid">
@@ -80,24 +82,23 @@ export default function Service2() {
 							<SwiperSlide className="swiper-slide">
 								<div className="service-card-items">
 									<div className="service-image">
-										<img src="assets/img/service/05.jpg" alt="img" />
+										<img src="https://wadaangroup.com/wp-content/uploads/2025/03/QC2.jpg" alt="img" />
 									</div>
 									<div className="bar-shape">
 										<img src="assets/img/service/bar.png" alt="img" />
 									</div>
 									<div className="icon">
-										<i className="fa-sharp fa-solid fa-plane-arrival" />
+										<i className="fa-sharp fa-solid fa-swatchbook" />
 									</div>
 									<div className="content">
 										<h3>
-											<Link to="/service-details">ocean Freight</Link>
+											<Link to="/contact">Color Matching</Link>
 										</h3>
-										<p>
-											It is a long established fact xbliuthat a reader will be
-											distracteda the readable content of a page when looking
+										<p style={{textAlign:'justify'}}>
+										We provide precise color matching services to ensure your prints, products, or designs achieve the exact shade you need. Our advanced technology and expertise guarantee consistency across different materials and applications, giving you vibrant and accurate results every time.
 										</p>
-										<Link to="/service-details" className="link-btn">
-											Explore More <i className="fa-solid fa-arrow-right" />
+										<Link to="/contact" className="link-btn">
+								Get This Service <i className="fa-solid fa-arrow-right" />
 										</Link>
 									</div>
 									<div className="items-shape">
@@ -108,24 +109,23 @@ export default function Service2() {
 							<SwiperSlide className="swiper-slide">
 								<div className="service-card-items">
 									<div className="service-image">
-										<img src="assets/img/service/05.jpg" alt="img" />
+										<img src="https://wadaangroup.com/wp-content/uploads/2025/03/COLOR-MATCH.jpg" alt="img" />
 									</div>
 									<div className="bar-shape">
 										<img src="assets/img/service/bar.png" alt="img" />
 									</div>
 									<div className="icon">
-										<i className="fa-solid fa-plane" />
+										<i className="fa-solid fa-paintbrush-pencil" />
 									</div>
 									<div className="content">
 										<h3>
-											<Link to="/service-details">Air Freight</Link>
+											<Link to="/contact">Custom Made Inks</Link>
 										</h3>
 										<p>
-											It is a long established fact xbliuthat a reader will be
-											distracteda the readable content of a page when looking
+										Our custom-made inks are formulated to meet your specific requirements, whether you need unique shades, enhanced durability, or eco-friendly solutions. We work closely with you to develop high-quality inks that deliver superior performance and perfect color precision.
 										</p>
-										<Link to="/service-details" className="link-btn">
-											Explore More <i className="fa-solid fa-arrow-right" />
+										<Link to="/contact" className="link-btn">
+										Get This Service  <i className="fa-solid fa-arrow-right" />
 										</Link>
 									</div>
 									<div className="items-shape">
@@ -136,24 +136,24 @@ export default function Service2() {
 							<SwiperSlide className="swiper-slide">
 								<div className="service-card-items">
 									<div className="service-image">
-										<img src="assets/img/service/05.jpg" alt="img" />
+										<img src="https://wadaangroup.com/wp-content/uploads/2025/03/FLEXO-MACHINE-2.jpg" alt="img" />
 									</div>
 									<div className="bar-shape">
 										<img src="assets/img/service/bar.png" alt="img" />
 									</div>
 									<div className="icon">
-										<i className="fas fa-landmark" />
+										<i className="fas fa-headset" />
 									</div>
 									<div className="content">
 										<h3>
-											<Link to="/service-details">Land Freight</Link>
+											<Link to="/contact">
+											Technical Support</Link>
 										</h3>
 										<p>
-											It is a long established fact xbliuthat a reader will be
-											distracteda the readable content of a page when looking
+										Our dedicated technical support team is always ready to assist you with any challenges you may face. From troubleshooting to expert guidance, we provide reliable solutions to ensure smooth operations, enhanced efficiency, and optimal results for your projects.
 										</p>
-										<Link to="/service-details" className="link-btn">
-											Explore More <i className="fa-solid fa-arrow-right" />
+										<Link to="/contact" className="link-btn">
+										Get This Service  <i className="fa-solid fa-arrow-right" />
 										</Link>
 									</div>
 									<div className="items-shape">
@@ -161,34 +161,7 @@ export default function Service2() {
 									</div>
 								</div>
 							</SwiperSlide>
-							<SwiperSlide className="swiper-slide">
-								<div className="service-card-items">
-									<div className="service-image">
-										<img src="assets/img/service/05.jpg" alt="img" />
-									</div>
-									<div className="bar-shape">
-										<img src="assets/img/service/bar.png" alt="img" />
-									</div>
-									<div className="icon">
-										<i className="fa-sharp fa-solid fa-train" />
-									</div>
-									<div className="content">
-										<h3>
-											<Link to="/service-details">Railway Freight</Link>
-										</h3>
-										<p>
-											It is a long established fact xbliuthat a reader will be
-											distracteda the readable content of a page when looking
-										</p>
-										<Link to="/service-details" className="link-btn">
-											Explore More <i className="fa-solid fa-arrow-right" />
-										</Link>
-									</div>
-									<div className="items-shape">
-										<img src="assets/img/service/items-shape.png" alt="img" />
-									</div>
-								</div>
-							</SwiperSlide>
+							
 						</Swiper>
 						<div className="swiper-dot mt-5">
 							<div className="dot" />
