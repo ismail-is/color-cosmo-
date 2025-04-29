@@ -24,7 +24,7 @@ import Products from './pages/products.js'
 export default function MainRouter() {
 	return (
 		<>
-			<BrowserRouter >
+			<BrowserRouter basename='color-cosmo-'>
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
