@@ -12,13 +12,14 @@ export default function About2() {
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
-				<div className="about-shape-5 float-bob-y">
+				<div className="about-shape-5 float-bob-y ">
 					{/* <img src="assets/img/about/about-shape-5.png" alt="img" /> */}
 				</div>
 				<div className="container">
 					<div className="about-wrapper-2">
-						<div className="row g-4">
+						<div className="row g-2">
 							<div className="col-lg-6">
+								<div className='d-none d-md-flex'>
 								<div className="about-image">
 									<img
 										src="assets/img/allimg/products/7.png"
@@ -50,11 +51,12 @@ export default function About2() {
 										<img src="assets/img/allimg/shap/2.png" alt="img" />
 									</div>
 								</div>
+								</div>
 							</div>
 							<div className="col-lg-6">
 								<div className="about-content">
 									<div className="section-title">
-										<h6 className="wow fadeInUp">
+										<h6 className="wow fadeInUp d-none d-md-flex">
 											<i className="fa-regular fa-arrow-left-long" />
 											{/* About Our Company */}
 											<i className="fa-regular fa-arrow-right-long" />
@@ -67,6 +69,30 @@ export default function About2() {
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
 									Our UV Offset Inks deliver high-quality results with vibrant CMYKW and PMS shades. Custom-formulated for various substrates, these inks ensure precision, durability, and optimal performance under high-speed machines.
 									</p>
+
+									<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/7.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/p1/p1.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+</div>
+
+
+									
 									<div className="row g-4 mt-3">
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
 										<h3 className="wow fadeInUp" data-wow-delay=".2s">
@@ -221,7 +247,7 @@ export default function About2() {
 
 
 {/* 2 */}
-<section className="about-section fix section-padding" id="about" style={{marginTop:'-120px'}}>
+<section className="about-section fix section-padding" id="about"  style={{marginTop:'-130px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
@@ -252,6 +278,28 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 
 									</p>
 									
+									<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/1.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/p1/p2.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+</div>
+
+
 									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
 										<li>
 											{" "}
@@ -342,6 +390,7 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 								</div>
 							</div>
 							<div className="col-lg-6">
+								<div className='d-none d-md-flex'>
 								<div className="about-image">
 									<img
 										src="assets/img/allimg/products/1.png"
@@ -359,6 +408,7 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 									<div className="bar-shape">
 										<img src="assets/img/allimg/shap/2.png" alt="img" />
 									</div>
+								</div>
 								</div>
 							</div>
 						</div>
@@ -379,7 +429,7 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 
 
 {/* 3 */}
-			<section className="about-section fix section-padding" id="about">
+			<section className="about-section fix section-padding" id="about" style={{marginTop:'-130px'}} >
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
@@ -390,6 +440,8 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 					<div className="about-wrapper-2">
 						<div className="row g-4">
 							<div className="col-lg-6">
+
+								<div className='d-none d-md-flex'>
 								<div className="about-image">
 									<img
 										src="assets/img/allimg/products/6.png"
@@ -420,12 +472,13 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 									<div className="bar-shape">
 										<img src="assets/img/allimg/shap/2.png" alt="img" />
 									</div>
-								</div>
+								</div> 
+								</div> 
 							</div>
 							<div className="col-lg-6">
 								<div className="about-content">
 									<div className="section-title">
-										<h6 className="wow fadeInUp">
+										<h6 className="wow fadeInUp d-none d-md-flex">
 											<i className="fa-regular fa-arrow-left-long" />
 											{/* About Our Company */}
 											<i className="fa-regular fa-arrow-right-long" />
@@ -437,6 +490,27 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
 									Color Cosmo’s UV-based Dry Offset Inks are specially formulated for rigid plastic containers. Free from ITX and Benzo, they’re ideal for pharmaceutical, cosmetic, food, and dairy packaging applications
 									</p>
+
+									<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/6.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/p1/p3.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+</div>
 									<div className="row g-4 mt-3">
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
 										<h3 className="wow fadeInUp" data-wow-delay=".2s">
@@ -594,7 +668,7 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 
 
 			{/* 4 */}
-			<section className="about-section fix section-padding" id="about" style={{marginTop:'-120px'}}>
+			<section className="about-section fix section-padding" id="about" style={{marginTop:'-130px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
@@ -622,6 +696,28 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 
 Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seamless application on tubes and aggressive surfaces—ideal for cosmetics, pharmaceuticals, food, and industrial packaging.
 									</p>
+
+
+									<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/8.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/p1/p4.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+</div>
 									<div className="row g-4 mt-3">
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
 										<h3 className="wow fadeInUp" data-wow-delay=".2s">
@@ -733,6 +829,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 								</div>
 							</div>
 							<div className="col-lg-6">
+							<div className='d-none d-md-flex'>
 								<div className="about-image">
 									<img
 										src="assets/img/allimg/products/8.png"
@@ -751,6 +848,8 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 										<img src="assets/img/allimg/shap/2.png" alt="img" />
 									</div>
 								</div>
+								</div>
+
 							</div>
 						</div>
 					</div>
@@ -771,7 +870,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 
 
 			{/* 5 */}
-			<section className="about-section fix section-padding" id="about">
+			<section className="about-section fix section-padding" id="about" style={{marginTop:'-130px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
@@ -782,6 +881,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 					<div className="about-wrapper-2">
 						<div className="row g-4">
 							<div className="col-lg-6">
+							<div className='d-none d-md-flex'>
 								<div className="about-image">
 									<img
 										src="assets/img/allimg/products/2.png"
@@ -813,11 +913,12 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 										<img src="assets/img/allimg/shap/2.png" alt="img" />
 									</div>
 								</div>
+								</div>
 							</div>
 							<div className="col-lg-6">
 								<div className="about-content">
 									<div className="section-title">
-										<h6 className="wow fadeInUp">
+										<h6 className="wow fadeInUp d-none d-md-flex">
 											<i className="fa-regular fa-arrow-left-long" />
 											{/* About Our Company */}
 											<i className="fa-regular fa-arrow-right-long" />
@@ -829,6 +930,27 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
 									For projects requiring deep material penetration and exceptional durability, our solvent-based screen printing delivers time-tested performance on challenging surfaces.
 									</p>
+
+									<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/2.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/p1/p5.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+</div>
 									
 									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
 									<h4 className="wow fadeInUp" data-wow-delay=".2s">
@@ -923,7 +1045,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 
 
 {/* 6 */}
-<section className="about-section fix section-padding" id="about"  style={{marginTop:'-100px'}}>
+<section className="about-section fix section-padding" id="about"  style={{marginTop:'-130px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
@@ -958,6 +1080,27 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 
 
 									</p>
+
+									<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/Ourproducts/3.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/p1/p6.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+</div>
 									
 									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
 										<li>
@@ -1051,6 +1194,7 @@ Best for :-
 								</div>
 							</div>
 							<div className="col-lg-6">
+							<div className='d-none d-md-flex'>
 								<div className="about-image">
 									<img
 										src="assets/img/allimg/Ourproducts/3.png"
@@ -1068,6 +1212,7 @@ Best for :-
 									<div className="bar-shape">
 										<img src="assets/img/allimg/shap/2.png" alt="img" />
 									</div>
+								</div>
 								</div>
 							</div>
 						</div>
