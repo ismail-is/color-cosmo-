@@ -861,7 +861,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
 											<div className="icon-items">
 												<div className="icon">
-													<i className="fas fa-shipping-timed" />
+													<i className="far fa-dot-circle" />
 												</div>
 												<h5>Outdoor Signage & Banners</h5>
 											</div>
@@ -869,7 +869,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
 											<div className="icon-items">
 												<div className="icon">
-													<i className="far fa-dolly-flatbed-alt" />
+													<i className="far fa-dot-circle" />
 												</div>
 												<h5>Vehicle Wraps & Fleet Graphics</h5>
 											</div>
@@ -877,7 +877,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
 											<div className="icon-items">
 												<div className="icon">
-													<i className="far fa-dolly-flatbed-alt" />
+													<i className="far fa-dot-circle" />
 												</div>
 												<h5>Industrial Labels & Safety Markings
 												</h5>
@@ -886,7 +886,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
 											<div className="icon-items">
 												<div className="icon">
-													<i className="far fa-dolly-flatbed-alt" />
+													<i className="far fa-dot-circle" />
 												</div>
 												<h5>Promotional Products (flags, tents, awnings)
 												</h5>
@@ -994,7 +994,7 @@ Best for :-
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
 											<div className="icon-items">
 												<div className="icon">
-													<i className="fas fa-dot-circle" />
+													<i className="far fa-dot-circle" />
 												</div>
 												<h5>Electronics (circuit boards, touch panels)
 												</h5>

@@ -12,7 +12,7 @@ export default function Achivements() {
 				<div className="container">
 					<div className="achivements-wrapper">
 						<div className="row g-4 justify-content-between">
-							<div className="col-xxl-6 col-xl-7 col-lg-8">
+							<div className="col-xxl-6 col-xl-6 col-lg-8">
 								<div className="achivements-content">
 									<div className="section-title">
 										<h6 className="wow fadeInUp">
@@ -46,7 +46,7 @@ export default function Achivements() {
 								</div>
 							</div>
 							<div
-								className="col-xxl-6 col-xl-5 col-lg-6 wow fadeInUp"
+								className="col-xxl-6 col-xl-6 col-lg-6 wow fadeInUp"
 								data-wow-delay=".2s"
 							>
 								<div className="achivements-content">
