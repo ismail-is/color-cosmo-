@@ -38,10 +38,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 					</div>
 				</div> */}
 				<div id="header-sticky" className={`header-1 ${scroll ? "sticky" : ""}`}>
-					<div className="main-logo">
-						<Link to="/">
-							<img src="assets/img/logo/white-logo.svg" alt="logo-image" />
+					<div className="main-logo" >
+						<Link to="/" >
+							<img src="assets/img/allimg/footerlogo.png" alt="logo-image"  />
 						</Link>
+					
 					</div>
 					<div className="container-fluid">
 						<div className="mega-menu-wrapper">
