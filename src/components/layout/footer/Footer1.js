@@ -10,7 +10,7 @@ export default function Footer1() {
 			>
 				<div className="container">
 
-<br/>
+<div style={{padding:'10px'}}></div>
 					<div className="contact-info-area"  >
 						
 						<div

@@ -1857,6 +1857,7 @@ span {
 @media (max-width: 575px) {
 	.contact-info-area {
 		gap: 30px;
+		
 	}
 }
 
@@ -6726,7 +6727,7 @@ input.main-search-input::placeholder {
 }
 
 .service-box-items:hover .service-content .number {
-	-webkit-text-stroke: 1px rgba(245, 91, 31, 0.5);
+	-webkit-text-stroke: 1px rgb(203, 35, 154);
 }
 
 .service-card-items {

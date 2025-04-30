@@ -14,16 +14,17 @@ export default function OurSkills({ alt }) {
 						<div className="row g-4">
 							<div className="col-lg-6">
 								<div className="row g-4">
-									<div className="col-lg-7 wow fadeInUp" data-wow-delay=".2s">
+									<div className="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
 										<div className="skills-image">
-											<img src="assets/img/skills/01.jpg" alt="img" />
+											<img src="https://wadaangroup.com/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-16-at-2.46.46-AM.jpeg" alt="img" />
 										</div>
 									</div>
+{/* 									
 									<div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
 										<div className="skills-image">
 											<img src="assets/img/skills/02.jpg" alt="img" />
 										</div>
-									</div>
+									</div> */}
 								</div>
 							</div>
 							<div className="col-lg-6">

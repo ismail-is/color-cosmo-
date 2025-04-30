@@ -113,17 +113,17 @@ export default function Hero1() {
 									<Swiper {...swiperOptions} className="swiper-wrapper">
 										<SwiperSlide className="swiper-slide">
 											<div className="hero-image">
-												<img src="assets/img/hero/01.jpg" alt="img" />
+												<img src="assets/img/allimg/b1.png" alt="img" />
 											</div>
 										</SwiperSlide>
 										<SwiperSlide className="swiper-slide">
 											<div className="hero-image">
-												<img src="assets/img/hero/02.jpg" alt="img" />
+												<img src="assets/img/allimg/b2.png" alt="img" />
 											</div>
 										</SwiperSlide>
 										<SwiperSlide className="swiper-slide">
 											<div className="hero-image">
-												<img src="assets/img/hero/01.jpg" alt="img" />
+												<img src="assets/img/allimg/b3.png" alt="img" />
 											</div>
 										</SwiperSlide>
 									</Swiper>

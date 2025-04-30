@@ -11,7 +11,7 @@ export default function About1() {
 					<img src="assets/img/about/about-shape-1.png" alt="img" />
 				</div>
 				<div className="about-shape-2 float-bob-x">
-					<img src="assets/img/about/about-shape-2.png" alt="img" />
+					{/* <img src="assets/img/about/about-shape-2.png" alt="img" /> */}
 				</div>
 				<div className="container">
 					<div className="about-wrapper">
@@ -19,7 +19,7 @@ export default function About1() {
 							<div className="col-lg-6">
 								<div className="about-image">
 									<img
-										src="assets/img/about/01.jpg"
+										src="assets/img/allimg/a1.png"
 										alt="img"
 										className="wow fadeInLeft"
 										data-wow-delay=".2s"
@@ -28,7 +28,7 @@ export default function About1() {
 										className="about-image-2 wow fadeInUp"
 										data-wow-delay=".4s"
 									>
-										<img src="assets/img/about/02.jpg" alt="img" />
+										<img src="assets/img/allimg/a3.png" alt="img" />
 										<div className="video-box">
 											{/* <a
 												onClick={() => setOpen(true)}

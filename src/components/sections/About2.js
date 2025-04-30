@@ -13,7 +13,7 @@ export default function About2() {
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
 				<div className="about-shape-5 float-bob-y">
-					<img src="assets/img/about/about-shape-5.png" alt="img" />
+					{/* <img src="assets/img/about/about-shape-5.png" alt="img" /> */}
 				</div>
 				<div className="container">
 					<div className="about-wrapper-2">
@@ -21,7 +21,7 @@ export default function About2() {
 							<div className="col-lg-6">
 								<div className="about-image">
 									<img
-										src="assets/img/allimg/products/1.png"
+										src="assets/img/allimg/products/7.png"
 										alt="img"
 										className="wow fadeInLeft"
 										data-wow-delay=".3s"
@@ -69,39 +69,128 @@ export default function About2() {
 									</p>
 									<div className="row g-4 mt-3">
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
-											<div className="icon-items">
-												<div className="icon">
-													<i className="fas fa-shipping-timed" />
-												</div>
-												<h5>Build &amp; Development</h5>
-											</div>
-										</div>
-										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-											<div className="icon-items">
-												<div className="icon">
-													<i className="far fa-dolly-flatbed-alt" />
-												</div>
-												<h5>Full-service offering</h5>
-											</div>
-										</div>
-									</div>
-									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Applications
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+								
+									
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Proactively pontificate client-centered relationships
+											Footboard
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Is there a waiting list for desired work to be started
+											Cardboard
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Release of Letraset sheets containing Lorem Ipsum
+											Metalized Board
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											PE Coated Paper
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											PP Coated Paper
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Coated Metals
 										</li>
 									</ul>
+										</div>
+										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Color Availability
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+								
+										
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Cyan
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Magenta
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Yellow
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Black
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Pantone Matching System
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Bespoke Color Matching
+										</li>
+									</ul>
+
+										</div>
+									</div>
+									
+									{/* <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+									<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+									UV Offset Printing Inks
+										</h3>
+										<br/>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Footboard
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Cardboard
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Metalized Board
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											PE Coated Paper
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											PP Coated Paper
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Coated Metals
+										</li>
+									</ul> */}
 									{/* <div className="about-author">
 										<Link
 											to="/about"
@@ -132,12 +221,12 @@ export default function About2() {
 
 
 {/* 2 */}
-<section className="about-section fix section-padding" id="about">
+<section className="about-section fix section-padding" id="about" style={{marginTop:'-120px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
 				<div className="about-shape-5 float-bob-y">
-					<img src="assets/img/about/about-shape-5.png" alt="img" />
+					{/* <img src="assets/img/about/about-shape-5.png" alt="img" /> */}
 				</div>
 				<div className="container">
 					<div className="about-wrapper-2">
@@ -295,7 +384,7 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
 				<div className="about-shape-5 float-bob-y">
-					<img src="assets/img/about/about-shape-5.png" alt="img" />
+					{/* <img src="assets/img/about/about-shape-5.png" alt="img" /> */}
 				</div>
 				<div className="container">
 					<div className="about-wrapper-2">
@@ -350,23 +439,83 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 									</p>
 									<div className="row g-4 mt-3">
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
-											<div className="icon-items">
-												<div className="icon">
-													<i className="fas fa-shipping-timed" />
-												</div>
-												<h5>Build &amp; Development</h5>
-											</div>
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Applications
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+								
+									
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Poly Styrene (PS) Container
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Poly Propylene (PP) Containers
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											High Density Poly Ethylene Containers
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Poly Ethylene (PET) Containers
+
+										</li>
+										
+									</ul>
 										</div>
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-											<div className="icon-items">
-												<div className="icon">
-													<i className="far fa-dolly-flatbed-alt" />
-												</div>
-												<h5>Full-service offering</h5>
-											</div>
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Color Availability
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+									
+									
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Cyan
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Magenta
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Yellow
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Black
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Pantone Matching System
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Bespoke Color Matching
+										</li>
+									</ul>
+
 										</div>
 									</div>
-									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+									{/* <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
@@ -382,7 +531,7 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 											<i className="fa-solid fa-circle-check" />
 											Release of Letraset sheets containing Lorem Ipsum
 										</li>
-									</ul>
+									</ul> */}
 									{/* <div className="about-author">
 										<Link
 											to="/about"
@@ -445,12 +594,12 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 
 
 			{/* 4 */}
-			<section className="about-section fix section-padding" id="about">
+			<section className="about-section fix section-padding" id="about" style={{marginTop:'-120px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
 				<div className="about-shape-5 float-bob-y">
-					<img src="assets/img/about/about-shape-5.png" alt="img" />
+					{/* <img src="assets/img/about/about-shape-5.png" alt="img" /> */}
 				</div>
 				<div className="container">
 					<div className="about-wrapper-2">
@@ -475,23 +624,77 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 									</p>
 									<div className="row g-4 mt-3">
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
-											<div className="icon-items">
-												<div className="icon">
-													<i className="fas fa-shipping-timed" />
-												</div>
-												<h5>Build &amp; Development</h5>
-											</div>
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Applications
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+									
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Laminated Tubes
+
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Seamless Tubes
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Aluminum Tubes
+										</li>
+										
+										
+									</ul>
 										</div>
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-											<div className="icon-items">
-												<div className="icon">
-													<i className="far fa-dolly-flatbed-alt" />
-												</div>
-												<h5>Full-service offering</h5>
-											</div>
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Color Availability
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+									
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Cyan
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Magenta
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Yellow
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Black
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Pantone Matching System
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Bespoke Color Matching
+										</li>
+									</ul>
+
 										</div>
 									</div>
-									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+									{/* <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
@@ -507,7 +710,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 											<i className="fa-solid fa-circle-check" />
 											Release of Letraset sheets containing Lorem Ipsum
 										</li>
-									</ul>
+									</ul> */}
 									{/* <div className="about-author">
 										<Link
 											to="/about"
@@ -532,7 +735,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 							<div className="col-lg-6">
 								<div className="about-image">
 									<img
-										src="assets/img/about/03.jpg"
+										src="assets/img/allimg/products/8.png"
 										alt="img"
 										className="wow fadeInLeft"
 										data-wow-delay=".3s"
@@ -541,7 +744,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 										className="about-image-2 wow fadeInUp"
 										data-wow-delay=".2s"
 									>
-										<img src="assets/img/about/04.jpg" alt="img" />
+										<img src="assets/img/allimg/products/1/9.png" alt="img" />
 									</div>
 									
 									<div className="bar-shape">
@@ -573,7 +776,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
 				<div className="about-shape-5 float-bob-y">
-					<img src="assets/img/about/about-shape-5.png" alt="img" />
+					{/* <img src="assets/img/about/about-shape-5.png" alt="img" /> */}
 				</div>
 				<div className="container">
 					<div className="about-wrapper-2">
@@ -720,12 +923,12 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 
 
 {/* 6 */}
-<section className="about-section fix section-padding" id="about">
+<section className="about-section fix section-padding" id="about"  style={{marginTop:'-100px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
 				<div className="about-shape-5 float-bob-y">
-					<img src="assets/img/about/about-shape-5.png" alt="img" />
+					{/* <img src="assets/img/about/about-shape-5.png" alt="img" /> */}
 				</div>
 				<div className="container">
 					<div className="about-wrapper-2">

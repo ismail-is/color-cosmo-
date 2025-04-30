@@ -176,7 +176,7 @@ export default function Service2() {
 								<i className="fa-solid fa-arrow-left-long" />
 							</button>
 							<button className="array-next h1n">
-								<i className="fa-solid fa-arrow-right-long" />
+								<i className="fa-solid fa-arrow-right-long"  style={{color:'white'}}/>
 							</button>
 						</div>
 					</div>

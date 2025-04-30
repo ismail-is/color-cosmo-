@@ -21,8 +21,7 @@ export default function About() {
 				{/* <News2 /> */}
 				<Service1 />
 				{/* <Team1 /> */}
-				<br/>
-				<br/>
+				<div style={{margin:'20px'}}></div>
 				<Brand1 />
 				<Whatsapp/>
 			</Layout>

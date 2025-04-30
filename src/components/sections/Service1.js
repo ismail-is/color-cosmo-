@@ -144,7 +144,7 @@ export default function Service1() {
 							<SwiperSlide className="swiper-slide">
 								<div className="service-box-items">
 									<div className="service-thumb">
-										<img src="assets/img/allimg/process/4.png" alt="img" />
+										<img src="assets/img/allimg/process/5.png" alt="img" />
 										{/* <div className="icon">
 											<i className="fas fa-shipping-fast" />
 										</div> */}
