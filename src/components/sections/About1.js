@@ -29,14 +29,14 @@ export default function About1() {
 										data-wow-delay=".4s"
 									>
 										<img src="assets/img/allimg/a3.png" alt="img" />
-										<div className="video-box">
-											{/* <a
+										{/* <div className="video-box">
+											<a
 												onClick={() => setOpen(true)}
 												className="video-btn video-popup"
 											>
 												<i className="fas fa-play" />
-											</a> */}
-										</div>
+											</a>
+										</div> */}
 									</div>
 									<div className="about-line-shape">
 										<img src="assets/img/about/about-shape-3.png" alt="img" />
