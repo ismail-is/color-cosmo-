@@ -129,7 +129,7 @@ export default function Contact() {
 											<i className="fa-solid fa-phone-volume" />
 										</div>
 										<div className="content">
-											<span>Call emergency to Enquire Now	</span>
+											<span>Contact Us    to know more</span>
 											<h4>
 												<Link to="/tel:+0589996806">+058 999 6806</Link>
 											</h4>
