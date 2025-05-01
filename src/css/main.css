@@ -3948,7 +3948,11 @@ span {
 	bottom: 0;
 	left: 0;
 }
-
+@media only screen and (max-width: 767px) {
+	.mobile-h1 {
+	  font-size: 32px !important;
+	}
+  }
 .hero-1 .hero-content {
 	background-color: var(--theme);
 	padding: 105px 70px;

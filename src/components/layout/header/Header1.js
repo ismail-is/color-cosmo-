@@ -40,7 +40,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 				<div id="header-sticky" className={`header-1 ${scroll ? "sticky" : ""}`}>
 					<div className="main-logo" >
 						<Link to="/" >
-							<img src="assets/img/allimg/footerlogo.png" alt="logo-image"  />
+							<img src="assets/img/allimg/logo.png" alt="logo-image"  />
 						</Link>
 					
 					</div>
@@ -49,7 +49,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 							<div className="header-main">
 								<div className="logo d-none">
 									<Link to="/" className="header-logo">
-										<img src="assets/img/allimg/footerlogo.png" alt="logo-img" />
+										<img src="assets/img/allimg/logo.png" alt="logo-img" />
 									</Link>
 								</div>
 								<div className="header-left">

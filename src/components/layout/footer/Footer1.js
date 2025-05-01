@@ -20,8 +20,8 @@ export default function Footer1() {
 							
 							<div className="content">
 								{/* <p>Our Address</p> */}
-								<h3>Get in Touch and Elevate Your Digital Presence Today!</h3>
-								<p>Reach out to enhance your digital presence and start your journey toward remarkable growth</p>
+								<h2 style={{fontSize:'25px'}}>Do you want high-quality prints on your products?</h2>
+								{/* <p>Reach out to enhance your digital presence and start your journey toward remarkable growth</p> */}
 							</div>
 						</div>
 					

@@ -76,7 +76,7 @@ export default function Hero1() {
 								<div className="vector-shape-2">
 									<img src="assets/img/hero/vector-2.png" alt="img" />
 								</div>
-								<h1 className="wow fadeInUp" data-wow-delay=".3s" style={{fontSize:'60px'}}>
+								<h1 className="wow fadeInUp mobile-h1" data-wow-delay=".3s" style={{fontSize:'60px'}}>
 								Delivering <br/>
 								High-performance <br/>Inks For Modern<br/> Packaging
 								</h1>

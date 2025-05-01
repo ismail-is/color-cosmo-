@@ -52,7 +52,7 @@ export default function About1() {
 											<i className="fa-regular fa-arrow-right-long" />
 										</h6>
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">
-										Our Ink Solutions,Crafted to Performimg
+										Our Ink Solutions Are Crafted For Quality Printing
 										</h2>
 									</div>
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
