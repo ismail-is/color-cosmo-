@@ -114,17 +114,15 @@ export default function Contact() {
 											className="text-white wow fadeInUp"
 											data-wow-delay=".3s"
 										>
-											building with passion ensuring satisfactions
+											Let us know your printing requirements
+
 										</h2>
 									</div>
 									<p
 										className="text-white mt-3 mt-md-0 wow fadeInUp"
 										data-wow-delay=".5s"
 									>
-										It is a long established fact that a reader will be
-										distracted the readable content of a page when looking at
-										layout the point of using lorem the is Ipsum less normal
-										distribution of letters.
+										We provide custom printing services tailored to your needs and aligned with your unique business goals
 									</p>
 									<div className="icon-items wow fadeInUp" data-wow-delay=".3s">
 										<div className="icon">
