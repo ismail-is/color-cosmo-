@@ -107,7 +107,7 @@ export default function Footer1() {
 						>
 							<img src="assets/img/allimg/footerlogo.png" alt="img" />
 						</Link>
-										<p>
+										<p style={{marginTop:'20px'}}>
 										Advanced ink technology for seamless printing results. Consistency, reliability, and excellence
 										</p>
 										<div className="social-icon d-flex align-items-center">
@@ -209,7 +209,14 @@ export default function Footer1() {
 											<Link to="/products">
 												<i className="fa-solid fa-chevrons-right" />
 												
-												UV varnishes and consumables
+												UV varnishes 
+											</Link>
+										</li>
+										<li>
+											<Link to="/products">
+												<i className="fa-solid fa-chevrons-right" />
+												
+												consumables
 											</Link>
 										</li>
 										
@@ -234,7 +241,10 @@ export default function Footer1() {
 										</li>
 										
 										<li>
-									<Link to="/tel:+0589996806">+058 999 6806</Link>
+									<Link to="/tel:+971 58 999 6806">+971 5899 96806</Link>
+										</li>
+										<li>
+									<Link to="/tel:+97167454004">+971 6745 4004</Link>
 										</li>
 										
 									
@@ -306,7 +316,7 @@ export default function Footer1() {
 					<div className="footer-bottom">
 						<p>
 						©  {new Date().getFullYear()} Color Cosmo {" "} | Powered By
-						<a href="https://brightmedia.tech/" target="_blank"> Bright Media</a>
+						<a href="https://brightmedia.tech/" target="_blank" style={{color:'#bb0000'}}> Targefy</a>
 						</p>
 					</div>
 				</div>

@@ -61,7 +61,7 @@ export default function ContactInfo() {
 							<div className="content">
 								<h3>Phone Number</h3>
 								<p>
-									<Link to="/tel:0589996806">+058 999 6806</Link>{" "}
+									<Link to="/tel:971589996806">+971 5899 96806</Link>{" "}
 									
 								</p>
 							</div>

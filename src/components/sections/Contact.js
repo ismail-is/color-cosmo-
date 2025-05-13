@@ -131,7 +131,10 @@ export default function Contact() {
 										<div className="content">
 											<span>Contact Us    to know more</span>
 											<h4>
-												<Link to="/tel:+0589996806">+058 999 6806</Link>
+												<Link to="/tel:971589996806">+971 5899 96806</Link>
+											</h4>
+											<h4>
+												<Link to="/tel:97167454004">+971 6745 4004</Link>
 											</h4>
 										</div>
 									</div>
