@@ -147,7 +147,7 @@ export default function Service2() {
 									<div className="content">
 										<h3>
 											<Link to="/contact">
-											Technical Support</Link>
+											Troubleshooting</Link>
 										</h3>
 										<p>
 										Our dedicated technical support team is always ready to assist you with any challenges you may face. From troubleshooting to expert guidance, we provide reliable solutions to ensure smooth operations, enhanced efficiency, and optimal results for your projects.

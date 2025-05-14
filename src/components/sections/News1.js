@@ -126,11 +126,11 @@ export default function News1() {
 							our services
 							<i className="fa-regular fa-arrow-right-long" />
 						</h6> */}
-						<h2 className="wow fadeInUp" data-wow-delay=".2s" style={{color:' rgb(203, 35, 154)',fontSize:'30px'}}>
+						{/* <h2 className="wow fadeInUp" data-wow-delay=".2s" style={{color:' rgb(203, 35, 154)',fontSize:'30px'}}>
 					
 						Color Cosmo’s Vision & Mission
 
-						</h2>
+						</h2> */}
 						{/* <p style={{color:'black'}}>We offer a comprehensive range of services, including custom color matching, specialty coatings, and high-performance UV, UV LED  printing inks, tailored to meet the diverse needs of various industries. Our expertise ensures precision, durability, and vibrant results across all applications. With cutting-edge technology and a commitment to quality, we deliver innovative solutions that enhance product performance and visual appeal.</p> */}
 					</div>
 				</div>
@@ -213,6 +213,181 @@ export default function News1() {
 					</div>
 				</div> */}
 			</section>
+
+
+			<section className="project-details-section fix section-padding" style={{backgroundColor:'#F2F5FA'}}>
+        <div className="container">
+          <div className="project-details-wrapper">
+            <div className="row g-4">
+              <div className="col-lg-12">
+                <div className="project-details-items">
+                  {/* <div className="details-image">
+                    <img src="assets/img/project/details-1.jpg" alt="img" />
+                  </div> */}
+                  <div className="project-details-content">
+                    {/* <p className="mb-2">Construction, Architecture</p> */}
+                    <h2>Quality Policy</h2>
+                    <p className="mb-3 mt-3">
+                     Management of COLOR COSMO F.Z.C. is committed and dedicated to ensure Customer Satisfaction, Environment Protection and Injury/ill health Prevention in all areas of our expertise. We strive to continously improve our Quality Management System and perfomance by:
+                    </p>
+                   
+                    <div className="project-infor-wrapper">
+                      <div className="row g-4">
+                        <div className="col-xl-12">
+                          {/* <h5> <i className="fa-solid fa-chevrons-right" />Going Beyond the Usual</h5> */}
+                          <p className="mt-0 mb-3">
+							<i className="fa-solid fa-chevrons-right" style={{color:'#4A136E',margin:'0 12px 0 0'}} />
+                           Improving Organizational Efficiency using proper Management Tools
+                          </p>
+                          <p className="mt-0 mb-3">
+							<i className="fa-solid fa-chevrons-right" style={{color:'#4A136E',margin:'0 12px 0 0'}} />
+                       Conserving natural resources and energy by optimising maximum efficiency, minimizing waste and exercising environment friendly programs
+                          </p>
+                          <p className="mt-0 mb-3">
+							<i className="fa-solid fa-chevrons-right" style={{color:'#4A136E',margin:'0 12px 0 0'}} />
+                       Ensure safe and healthy work environment by minimizing operational risk and hazard
+
+                          </p>
+                          <p className="mt-0 mb-3">
+							<i className="fa-solid fa-chevrons-right" style={{color:'#4A136E',margin:'0 12px 0 0'}} />
+                      Enhancing effectiveness of Quality Management System through reviewing its objectives and targets periodically
+
+                          </p>
+                          <p className="mt-0 mb-3">
+							<i className="fa-solid fa-chevrons-right" style={{color:'#4A136E',margin:'0 12px 0 0'}} />
+                      Increasing quality awareness amongst our employees through workshops and training exercises
+
+                          </p>
+                          {/* <h3>Project Goal</h3> */}
+                          <p className="mt-3">
+                           We commit to communicate this policy to all our company personnel and make it available on request.
+                          </p>
+                          <p className="mt-3">
+                        We tend to adopt the following strategy:
+                          </p>
+						         <p className="mt-0 mb-3">
+							<i className="fa-solid fa-chevrons-right" style={{color:'#4A136E',margin:'0 12px 0 0'}} />
+                      Making commitments only after realising and believing we can meet the same
+
+
+                          </p>
+						         <p className="mt-0 mb-3">
+							<i className="fa-solid fa-chevrons-right" style={{color:'#4A136E',margin:'0 12px 0 0'}} />
+                      Learning from past experiences and implementing quality enhancement measures for product manufacturing and supply
+
+
+                          </p>
+						         <p className="mt-0 mb-3">
+							<i className="fa-solid fa-chevrons-right" style={{color:'#4A136E',margin:'0 12px 0 0'}} />
+                     Keeping strict quality metrics and maintaining it by regular monitoring and analysing results to verify and validate or processes and performance
+
+
+                          </p>
+						         <p className="mt-0 mb-3">
+							<i className="fa-solid fa-chevrons-right" style={{color:'#4A136E',margin:'0 12px 0 0'}} />
+                     Setting goals for continuous improvement based on measured results and customer input
+
+                          </p>
+                          {/* <ul className="details-list">
+                            <li>
+                              <i className="fa-solid fa-circle-check" />
+                              Proactively pontificate client-centered
+                              relationships
+                            </li>
+                            <li>
+                              <i className="fa-solid fa-circle-check" />
+                              Release of Letraset sheets containing Lorem Ipsum
+                            </li>
+                            <li>
+                              <i className="fa-solid fa-circle-check" />
+                              Is there a waiting list for desired work to be
+                              started
+                            </li>
+                            <li>
+                              <i className="fa-solid fa-circle-check" />
+                              Release of Letraset sheets containing Lorem Ipsum
+                            </li>
+                          </ul> */}
+                          {/* <p>
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable.
+                          </p> */}
+                        </div>
+                        {/* <div className="col-xl-5">
+                          <div className="project-nformation">
+                            <h4>Project Information</h4>
+                            <ul>
+                              <li>
+                                Project Category:
+                                <span>Rubix carabil tower</span>
+                              </li>
+                              <li>
+                                Clients:
+                                <span>David Malan</span>
+                              </li>
+                              <li>
+                                Project Date:
+                                <span>25 June, 2024</span>
+                              </li>
+                              <li>
+                                Avenue End Date:
+                                <span>08 July, 2024</span>
+                              </li>
+                              <li>
+                                Locations:
+                                <span>NewYork – 4648 Rocky, USA</span>
+                              </li>
+                              <li className="pb-0">
+                                Price After:
+                                <span>$10 Million</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div> */}
+                      </div>
+                    </div>
+                    {/* <h3 className="mt-3 mb-3">Project Summery</h3>
+                    <div className="row g-4">
+                      <div className="col-md-6">
+                        <p className="mb-4">
+                          There are many variations of passages of Lorem Ipsum
+                          available, but the majority have suffered alteration
+                          in some form, by injected humour, or randomised words
+                          which don't look even slightly believable. If you are
+                          going to use a passage of Lorem Ipsum,
+                        </p>
+                        <div className="details-image">
+                          <img
+                            src="assets/img/project/details-2.jpg"
+                            alt="img"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <p className="mb-4">
+                          There are many variations of passages of Lorem Ipsum
+                          available, but the majority have suffered alteration
+                          in some form, by injected humour, or randomised words
+                          which don't look even slightly believable. If you are
+                          going to use a passage of Lorem Ipsum,
+                        </p>
+                        <div className="details-image">
+                          <img
+                            src="assets/img/project/details-3.jpg"
+                            alt="img"
+                          />
+                        </div>
+                      </div>
+                    </div> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 			

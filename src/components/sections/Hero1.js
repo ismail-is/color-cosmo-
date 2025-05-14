@@ -111,23 +111,23 @@ export default function Hero1() {
 							<div className="hero-image-items">
 								<div className="swiper hero-slider">
 									<Swiper {...swiperOptions} className="swiper-wrapper">
-										<SwiperSlide className="swiper-slide">
+										{/* <SwiperSlide className="swiper-slide">
 											<div className="hero-image">
 												<img src="assets/img/allimg/b1.png" alt="img" />
 											</div>
-										</SwiperSlide>
+										</SwiperSlide> */}
 										<SwiperSlide className="swiper-slide">
 											<div className="hero-image">
 												<img src="assets/img/allimg/b2.png" alt="img" />
 											</div>
 										</SwiperSlide>
-										<SwiperSlide className="swiper-slide">
+										{/* <SwiperSlide className="swiper-slide">
 											<div className="hero-image">
 												<img src="assets/img/allimg/b3.png" alt="img" />
 											</div>
-										</SwiperSlide>
+										</SwiperSlide> */}
 									</Swiper>
-									<div className="array-button">
+									{/* <div className="array-button">
 										<button className="array-prevs h1p">
 										<i className="fa-regular fa-arrow-left-long"  style={{color:'white'}}/>
 											Previews
@@ -135,7 +135,7 @@ export default function Hero1() {
 										<button className="array-prevs h1p">
 											Next	<i className="fa-regular fa-arrow-right-long"  style={{color:'white'}}/>
 										</button>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

@@ -51,23 +51,27 @@ export default function About2() {
 										<img src="assets/img/allimg/shap/2.png" alt="img" />
 									</div>
 								</div>
+								
 								</div>
+								
 							</div>
 							<div className="col-lg-6">
 								<div className="about-content">
 									<div className="section-title">
-										<h6 className="wow fadeInUp d-none d-md-flex">
+										{/* <h6 className="wow fadeInUp d-none d-md-flex">
 											<i className="fa-regular fa-arrow-left-long" />
-											{/* About Our Company */}
 											<i className="fa-regular fa-arrow-right-long" />
-										</h6>
+										</h6> */}
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">
 										
 										UV Offset Printing Inks
 										</h2>
 									</div>
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
-									Our UV Offset Inks deliver high-quality results with vibrant CMYKW and PMS shades. Custom-formulated for various substrates, these inks ensure precision, durability, and optimal performance under high-speed machines.
+									Our advanced UV ink systems are engineered for unrivaled adhesion on challenging
+                                 	plastic substrates like PVC, PET, polycarbonate, acrylic, and even treated PE/PP.
+									Whether you're decorating cosmetic packaging, labeling consumer goods, or producing
+									outdoor signage, our ink delivers sharp definition and high color depth every single time
 									</p>
 
 									<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
@@ -97,7 +101,7 @@ export default function About2() {
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
 										<h3 className="wow fadeInUp" data-wow-delay=".2s">
 										
-										Applications
+										Applicable Substrates
 											</h3>
 										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
 								
@@ -105,34 +109,30 @@ export default function About2() {
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Footboard
+											PVC
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Cardboard
+											PET
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Metalized Board
+											Polycarbonate
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											PE Coated Paper
+											Acrylics
 
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											PP Coated Paper
+											Treated HDPE and PP 
 										</li>
-										<li>
-											{" "}
-											<i className="fa-solid fa-circle-check" />
-											Coated Metals
-										</li>
+										
 									</ul>
 										</div>
 										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
@@ -167,13 +167,35 @@ export default function About2() {
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Pantone Matching System
+											Pantone Shades
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
 											Bespoke Color Matching
 										</li>
+									</ul>
+
+										</div>
+										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Packaging Size
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+								
+										
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											1 kg Black Plastic Container
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											5 kg Black Plastic Container
+										</li>
+										
 									</ul>
 
 										</div>
@@ -273,8 +295,12 @@ export default function About2() {
 									</div>
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
 									
-									Upgrade your printing with our UV-based screen printing – the fastest, most vibrant solution for flawless results on any material.
-UV screen printing is an advanced method that uses UV-curable inks, which dry instantly when exposed to UV light. 
+								At Color Cosmo FZC, we manufacture high-performance overprint varnishes that
+enhance both the look and durability of printed materials. From high-gloss brilliance to
+matte elegance, our OPVs are formulated for offset, screen, and flexo printing, offering
+fast drying, scuff resistance, and food-safe options—delivering a flawless finish, every
+time.
+
 
 									</p>
 									
@@ -301,34 +327,73 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 
 
 									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+										<h4 className="wow fadeInUp" data-wow-delay=".2s">
+										
+Key Features & Product Range :-
+										</h4>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Faster Production – No drying time required
+											Gloss Varnish – For high-shine finishes that enhance color and visual depth
 
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Vibrant Colors – High opacity & sharp details
+											Matt Varnish – For a smooth, elegant, non-reflective finish
+
 
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Durability – Scratch, fade, and chemical-resistant prints
+											Soft-Touch Varnish – Velvety texture ideal for luxury packaging
 
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Eco-Friendly–Low VOC emissions compared to solvent inks
+											Drip-Off / Reticulated Varnish – Creates contrast effects between gloss and
+matt areas
+
 
 
 										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											UV-Curable Varnishes – Instant drying with high durability and clarity
+
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Food-Safe Varnishes – Low migration, compliant with global food packaging
+standards
+
+
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Anti-Scratch & Anti-Scuff Coatings – Added protection for high-contact
+packaging
+
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Custom Formulations – Tailored solutions based on substrate, print method,
+or compliance needs
+
+										</li>
+
 									</ul>
 
-									<div className="row g-4 mt-3">
+									{/* <div className="row g-4 mt-3">
 										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
 											<div className="icon-items">
 												<div className="icon">
@@ -367,7 +432,7 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 												</h5>
 											</div>
 										</div>
-									</div>
+									</div> */}
 									{/* <div className="about-author">
 										<Link
 											to="/about"
@@ -478,11 +543,10 @@ UV screen printing is an advanced method that uses UV-curable inks, which dry in
 							<div className="col-lg-6">
 								<div className="about-content">
 									<div className="section-title">
-										<h6 className="wow fadeInUp d-none d-md-flex">
+										{/* <h6 className="wow fadeInUp d-none d-md-flex">
 											<i className="fa-regular fa-arrow-left-long" />
-											{/* About Our Company */}
 											<i className="fa-regular fa-arrow-right-long" />
-										</h6>
+										</h6> */}
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">
 										Dry Offset Inks
 										</h2>
@@ -918,11 +982,10 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 							<div className="col-lg-6">
 								<div className="about-content">
 									<div className="section-title">
-										<h6 className="wow fadeInUp d-none d-md-flex">
+										{/* <h6 className="wow fadeInUp d-none d-md-flex">
 											<i className="fa-regular fa-arrow-left-long" />
-											{/* About Our Company */}
 											<i className="fa-regular fa-arrow-right-long" />
-										</h6>
+										</h6> */}
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">
 										Solvent based screen printing ink
 										</h2>
@@ -979,23 +1042,37 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 									<div className="row g-4 mt-3">
 									<h4 className="wow fadeInUp" data-wow-delay=".2s">
 									Best Applications
-										</h4><br/>
-										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
-											<div className="icon-items">
-												<div className="icon">
-													<i className="far fa-dot-circle" />
-												</div>
-												<h5>Outdoor Signage & Banners</h5>
-											</div>
+										</h4>
+										<div className="col-lg-12 wow fadeInUp mt-0" data-wow-delay=".2s">
+												<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+												<li>
+													<i className="fa-solid fa-circle-check" />
+													Outdoor Signage & Banners
+												</li>
+												<li>
+													<i className="fa-solid fa-circle-check" />
+												Vehicle Wraps & Fleet Graphics
+												</li>
+												<li>
+													<i className="fa-solid fa-circle-check" />
+												Industrial Labels & Safety Markings
+												</li>
+												<li>
+													<i className="fa-solid fa-circle-check" />
+												Industrial Labels & Safety Markings
+												</li>
+												<li>
+													<i className="fa-solid fa-circle-check" />
+												Promotional Products (flags, tents, awnings)
+												</li>
+												</ul>
 										</div>
-										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
-											<div className="icon-items">
-												<div className="icon">
-													<i className="far fa-dot-circle" />
-												</div>
-												<h5>Vehicle Wraps & Fleet Graphics</h5>
-											</div>
-										</div>
+											{/* <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+												<li>
+													<i className="fa-solid fa-circle-check" />
+													Vehicle Wraps & Fleet Graphics
+												</li>
+												</ul>
 										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
 											<div className="icon-items">
 												<div className="icon">
@@ -1013,7 +1090,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 												<h5>Promotional Products (flags, tents, awnings)
 												</h5>
 											</div>
-										</div>
+										</div> */}
 									</div>
 									{/* <div className="about-author">
 										<Link
@@ -1065,21 +1142,26 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 											<i className="fa-regular fa-arrow-right-long" /> */}
 										</h6>
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">
-										UV varnishes
+										UV OVP Varnishes
 										</h2>
 									</div>
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
-									Enhance and protect your prints with our UV varnishing services – the ultimate solution for a premium, durable finish.
+									At Color Cosmo FZC, we manufacture high-performance overprint varnishes that
+              						enhance both the look and durability of printed materials. From high-gloss brilliance to
+									matte elegance, our OPVs are formulated for offset, screen, and flexo printing, offering
+									fast drying, scuff resistance, and food-safe options—delivering a flawless finish, every
+									time.
+
 
 
 
 									</p>
-									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
+									{/* <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
 					
 									UV varnishing is an advanced coating technique that cures instantly under UV light, creating a protective and visually striking layer.
 
 
-									</p>
+									</p> */}
 
 									<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
   <div className="col-6">
@@ -1103,33 +1185,72 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 </div>
 									
 									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+										<h4 className="wow fadeInUp" data-wow-delay=".2s">
+										
+Key Features & Product Range
+										</h4>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Instant Curing – No waiting time, faster production
+											Gloss Varnish – For high-shine finishes that enhance color and visual depth
 
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											High-Gloss or Matte Finish – Customizable aesthetic effects
+											Matt Varnish – For a smooth, elegant, non-reflective finish
+
 
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Superior Protection – Scratch-resistant and long-lasting
+											Soft-Touch Varnish – Velvety texture ideal for luxury packaging
 
 										</li>
 										<li>
 											{" "}
 											<i className="fa-solid fa-circle-check" />
-											Eco-Friendly – Low VOC emissions, safer for the environment
+											Drip-Off / Reticulated Varnish – Creates contrast effects between gloss and
+matt areas
+
 
 
 										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											UV-Curable Varnishes – Instant drying with high durability and clarity
+
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Food-Safe Varnishes – Low migration, compliant with global food packaging
+standards
+
+
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Anti-Scratch & Anti-Scuff Coatings – Added protection for high-contact
+packaging
+
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Custom Formulations – Tailored solutions based on substrate, print method,
+or compliance needs
+
+										</li>
+
 									</ul>
-									<div className="row g-4 mt-3">
+									{/* <div className="row g-4 mt-3">
 									<h4 className="wow fadeInUp" data-wow-delay=".2s">
 										
 Best for :- 
@@ -1171,7 +1292,7 @@ Best for :-
 												</h5>
 											</div>
 										</div>
-									</div>
+									</div> */}
 									{/* <div className="about-author">
 										<Link
 											to="/about"
@@ -1220,6 +1341,268 @@ Best for :-
 				</div>
 			</section>
 {/* 6 */}
+
+
+<section className="about-section fix section-padding" id="about">
+				{/* <div className="about-shape-4 float-bob-x">
+					<img src="assets/img/about/about-shape-4.png" alt="img" />
+				</div> */}
+				<div className="about-shape-5 float-bob-y ">
+					{/* <img src="assets/img/about/about-shape-5.png" alt="img" /> */}
+				</div>
+				<div className="container">
+					<div className="about-wrapper-2">
+						<div className="row g-2">
+							<div className="col-lg-6">
+								<div className='d-none d-md-flex'>
+								<div className="about-image">
+									<img
+										src="assets/img/allimg/Ourproducts/17.png"
+										alt="img"
+										className="wow fadeInLeft"
+										data-wow-delay=".3s"
+									/>
+									<div
+										className="about-image-2 wow fadeInUp"
+										data-wow-delay=".2s"
+									>
+										<img src="assets/img/allimg/Ourproducts/18.png" alt="img" />
+									</div>
+									{/* <div className="video-items wow fadeInUp">
+										<a
+											onClick={() => setOpen(true)}
+											className="video-btn video-popup"
+										>
+											<i className="fas fa-play" />
+										</a>
+										<a
+											onClick={() => setOpen(true)}
+											className="video-text video-popup"
+										>
+											play now
+										</a>
+									</div> */}
+									<div className="bar-shape">
+										<img src="assets/img/allimg/shap/2.png" alt="img" />
+									</div>
+								</div>
+								
+								</div>
+								
+							</div>
+							<div className="col-lg-6">
+								<div className="about-content">
+									<div className="section-title">
+										{/* <h6 className="wow fadeInUp d-none d-md-flex">
+											<i className="fa-regular fa-arrow-left-long" />
+											<i className="fa-regular fa-arrow-right-long" />
+										</h6> */}
+										<h2 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Consumables
+										</h2>
+									</div>
+									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
+									At Color Cosmo FZC, we go beyond inks—we provide the full range of screen printing,
+Offset and Flexo printing consumables that bring your print process to life. Every
+product is carefully selected to ensure consistent quality, reduce downtime, and support
+professional, high-efficiency printing. With Color Cosmo FZC, your printshop is powered
+by a trusted partner in every layer of the process.
+
+									</p>
+
+									<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/7.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/products/p1/p1.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+</div>
+
+
+									
+									<div className="row g-4 mt-3">
+										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Screenprinting Consumables
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+								
+									
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+										Screen Mesh 
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Squeegees 
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Emulsions & Emulsion Removers
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Adhesives
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Blackout Solutions & Tapes 
+										</li>
+										
+									</ul>
+										</div>
+										
+										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+									UV Offset and Flexo Consumables
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+								
+										
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											UV-Compatible Fountain Solutions
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											UV Washes & Roller Cleaners
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+										UV-Resistant Blankets
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+									UV-Compatible Printing Rollers
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+									UV Offset Plates
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+									Setoff Powders & Coating Additives
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+									UV Lamp & Maintenance Supplies
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+									Sleeves & Cylinders
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+								Doctor Blades
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+								Plate Mounting Tapes
+										</li>
+										
+									</ul>
+
+										</div>
+									</div>
+									
+									{/* <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+									<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+									UV Offset Printing Inks
+										</h3>
+										<br/>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Footboard
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Cardboard
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Metalized Board
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											PE Coated Paper
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											PP Coated Paper
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Coated Metals
+										</li>
+									</ul> */}
+									{/* <div className="about-author">
+										<Link
+											to="/about"
+											className="theme-btn wow fadeInUp"
+											data-wow-delay=".2s"
+										>
+											Explore more <i className="fa-regular fa-arrow-right" />
+										</Link>
+										<div
+											className="author-image wow fadeInUp"
+											data-wow-delay=".4s"
+										>
+											<img src="assets/img/about/author.png" alt="author-img" />
+											<div className="content">
+												<p>Trastek, CEO</p>
+												<h4>Brooklyn Simmons</h4>
+											</div>
+										</div>
+									</div> */}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="JXMWOmuR1hU" onClose={() => setOpen(false)} />
 

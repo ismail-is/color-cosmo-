@@ -44,11 +44,11 @@ export default function Project2() {
 				<div className="container">
 					<div className="section-title-area">
 						<div className="section-title">
-							<h6 className="wow fadeInUp" style={{color:'rgb(203, 35, 154)'}}>
+							{/* <h6 className="wow fadeInUp" style={{color:'rgb(203, 35, 154)'}}>
 								<i className="fa-regular fa-arrow-left-long" />
 								Our Latest Projects
 								<i className="fa-regular fa-arrow-right-long" />
-							</h6>
+							</h6> */}
 							<h2 className="wow fadeInUp" data-wow-delay=".2s">
 								Explore Our Project
 							</h2>
@@ -58,16 +58,16 @@ export default function Project2() {
 							className="theme-btn wow fadeInUp"
 							data-wow-delay=".4s"
 						>
-							View all Products <i className="fa-regular fa-arrow-right" />
+							 our projects <i className="fa-regular fa-arrow-right" />
 						</Link>
 					</div>
 				</div>
 				<div className="project-wrapper-2">
 					<div className="swiper project-slider">
 						<Swiper {...swiperOptions} className="swiper-wrapper">
-							<SwiperSlide className="swiper-slide" >
+							{/* <SwiperSlide className="swiper-slide" >
 								<div className="project-thumb" >
-									<img src="assets/img/allimg/products/1/1.png" alt="img" />
+									<img src="assets/img/allimg/ourproject/4.png" alt="img" />
 									<div className="project-content">
 										<div className="content" style={{
           display: "flex",
@@ -77,21 +77,17 @@ export default function Project2() {
           textAlign: "center",
           width: "100%",
         }}>
-											<h3>
-												<Link to="/products">Akira</Link>
-											</h3>
-											{/* <span>
-												<i className="fa-sharp fa-solid fa-location-dot" /> 4648
-												Rocky, New York
-											</span> */}
+											<h4>
+												<Link to="/products" style={{color:'#4A136E'}}>Akira</Link>
+											</h4>
+											
 										</div>
-										{/* <h2 className="number">01</h2> */}
 									</div>
 								</div>
-							</SwiperSlide>
+							</SwiperSlide> */}
 							<SwiperSlide className="swiper-slide">
 								<div className="project-thumb" >
-								<img src="assets/img/allimg/products/1/2.png" alt="img" />
+								<img src="assets/img/allimg/ourproject/9.png" alt="img" />
 									<div className="project-content">
 										<div className="content" style={{
           display: "flex",
@@ -102,9 +98,9 @@ export default function Project2() {
           width: "100%",
         }}
 										>
-											<h3>
-												<Link to="/products">Diamond</Link>
-											</h3>
+											<h4>
+												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>UV Offset Ink </Link>
+											</h4>
 											{/* <span>
 												<i className="fa-sharp fa-solid fa-location-dot" /> 4648
 												Rocky, New York
@@ -118,7 +114,7 @@ export default function Project2() {
 
 							<SwiperSlide className="swiper-slide" >
 								<div className="project-thumb" >
-								<img src="assets/img/allimg/products/1/4.png" alt="img" />
+								<img src="assets/img/allimg/ourproject/8.png" alt="img" />
 									<div className="project-content">
 										<div className="content" style={{
           display: "flex",
@@ -128,9 +124,9 @@ export default function Project2() {
           textAlign: "center",
           width: "100%",
         }}>
-											<h3>
-												<Link to="/products">Stanley</Link>
-											</h3>
+											<h4>
+												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>UV based screen printing Ink</Link>
+											</h4>
 											
 										</div>
 										{/* <h2 className="number">04</h2> */}
@@ -141,7 +137,7 @@ export default function Project2() {
 
 							<SwiperSlide className="swiper-slide" >
 								<div className="project-thumb" >
-								<img src="assets/img/allimg/products/1/5.png" alt="img" />
+								<img src="assets/img/allimg/ourproject/13.png" alt="img" />
 									<div className="project-content">
 										<div className="content" style={{
           display: "flex",
@@ -151,9 +147,9 @@ export default function Project2() {
           textAlign: "center",
           width: "100%",
         }}>
-											<h3>
-												<Link to="/products">Al Ain Farms</Link>
-											</h3>
+											<h4>
+												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>Dry offset Ink</Link>
+											</h4>
 											
 										</div>
 										{/* <h2 className="number">05</h2> */}
@@ -164,7 +160,7 @@ export default function Project2() {
 
 							<SwiperSlide className="swiper-slide" >
 								<div className="project-thumb" >
-								<img src="assets/img/allimg/products/1/6.png" alt="img" />
+								<img src="assets/img/allimg/ourproject/12.png" alt="img" />
 									<div className="project-content">
 										<div className="content" style={{
           display: "flex",
@@ -174,9 +170,58 @@ export default function Project2() {
           textAlign: "center",
           width: "100%",
         }}>
-											<h3>
-												<Link to="/products">Nestle</Link>
-											</h3>
+											<h4>
+												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>Solvent based screen printing Ink</Link>
+											</h4>
+											
+										</div>
+										{/* <h2 className="number">06</h2> */}
+									</div>
+								</div>
+							</SwiperSlide>
+
+
+
+								<SwiperSlide className="swiper-slide" >
+								<div className="project-thumb" >
+								<img src="assets/img/allimg/ourproject/11.png" alt="img" />
+									<div className="project-content">
+										<div className="content" style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
+          textAlign: "center",
+          width: "100%",
+        }}>
+											<h4>
+												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>Letter press Inks</Link>
+											</h4>
+											
+										</div>
+										{/* <h2 className="number">06</h2> */}
+									</div>
+								</div>
+							</SwiperSlide>
+
+
+
+
+								<SwiperSlide className="swiper-slide" >
+								<div className="project-thumb" >
+								<img src="assets/img/allimg/ourproject/10.png" alt="img" />
+									<div className="project-content">
+										<div className="content" style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
+          textAlign: "center",
+          width: "100%",
+        }}>
+											<h4>
+												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>UV varnishes</Link>
+											</h4>
 											
 										</div>
 										{/* <h2 className="number">06</h2> */}

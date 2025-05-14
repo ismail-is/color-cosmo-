@@ -13,6 +13,7 @@ export default function Services() {
 				{/* <Service1 /> */}
 				{/* <Brand1 /> */}
 				<OurSkills />
+				<Service1 />
 				<Whatsapp/>
 			</Layout>
 		</>

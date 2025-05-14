@@ -46,11 +46,10 @@ export default function About1() {
 							<div className="col-lg-6">
 								<div className="about-content">
 									<div className="section-title">
-										<h6 className="wow fadeInUp">
+										{/* <h6 className="wow fadeInUp">
 											<i className="fa-regular fa-arrow-left-long" />
-											{/* About Color Cosmo */}
 											<i className="fa-regular fa-arrow-right-long" />
-										</h6>
+										</h6> */}
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">
 										Our Ink Solutions Are Crafted For Quality Printing
 										</h2>

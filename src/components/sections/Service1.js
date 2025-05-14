@@ -130,7 +130,7 @@ export default function Service1() {
 									<div className="service-content">
 										<h2 className="number">03</h2>
 										<h3>
-										<Link to="#">Quality Assurance</Link>
+										<Link to="#">R&D, Quality Assurance</Link>
 										</h3>
 										<p>
 										Every product undergoes strict testing to meet industry standards for consistency, curing speed, and longevity.
