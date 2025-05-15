@@ -92,7 +92,7 @@ export default function Service2() {
 									</div>
 									<div className="content">
 										<h3>
-											<Link to="/contact">Color Matching</Link>
+											<Link to="#">Color Matching</Link>
 										</h3>
 										<p style={{textAlign:'justify'}}>
 										We offer expert color matching services to ensure your prints, products, or designs achieve the exact shade you envision. With advanced technology and skilled precision, we deliver consistent, vibrant, and accurate colors across all materials and applications—every single time.
@@ -119,7 +119,7 @@ export default function Service2() {
 									</div>
 									<div className="content">
 										<h3>
-											<Link to="/contact">Custom Made Inks</Link>
+											<Link to="#">Custom Made Inks</Link>
 										</h3>
 										<p>
 										Our custom-formulated inks are designed to match your exact needs—be it distinctive shades, increased durability, or environmentally friendly options. We collaborate with you to create high-performance inks that ensure exceptional quality and precise color accuracy.
@@ -146,7 +146,7 @@ export default function Service2() {
 									</div>
 									<div className="content">
 										<h3>
-											<Link to="/contact">
+											<Link to="#">
 											Troubleshooting</Link>
 										</h3>
 										<p>
