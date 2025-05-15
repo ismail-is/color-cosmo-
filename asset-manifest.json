@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/color-cosmo-/static/css/main.b4b1c278.css",
+    "main.css": "/color-cosmo-/static/css/main.f910978b.css",
     "main.js": "/color-cosmo-/static/js/main.6a69ab23.js",
     "static/js/453.96226902.chunk.js": "/color-cosmo-/static/js/453.96226902.chunk.js",
     "static/media/fa-duotone-900.ttf": "/color-cosmo-/static/media/fa-duotone-900.0f2e11ce9677158aeab0.ttf",
@@ -24,12 +24,12 @@
     "index.html": "/color-cosmo-/index.html",
     "static/media/plus.svg": "/color-cosmo-/static/media/plus.a31b38430d50ec59919d.svg",
     "static/media/minus.svg": "/color-cosmo-/static/media/minus.d146b6c2c8051576bbdf.svg",
-    "main.b4b1c278.css.map": "/color-cosmo-/static/css/main.b4b1c278.css.map",
+    "main.f910978b.css.map": "/color-cosmo-/static/css/main.f910978b.css.map",
     "main.6a69ab23.js.map": "/color-cosmo-/static/js/main.6a69ab23.js.map",
     "453.96226902.chunk.js.map": "/color-cosmo-/static/js/453.96226902.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4b1c278.css",
+    "static/css/main.f910978b.css",
     "static/js/main.6a69ab23.js"
   ]
 }
