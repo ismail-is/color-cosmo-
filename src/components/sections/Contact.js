@@ -105,16 +105,17 @@ export default function Contact() {
 							<div className="col-lg-6">
 								<div className="contact-content">
 									<div className="section-title">
-										<h6 className="text-white wow fadeInUp">
+										{/* <h6 className="text-white wow fadeInUp">
 											<i className="fa-regular fa-arrow-left-long" />
 											talk to us
 											<i className="fa-regular fa-arrow-right-long" />
-										</h6>
+										</h6> */}
 										<h2
 											className="text-white wow fadeInUp"
 											data-wow-delay=".3s"
 										>
-											Let us know your printing requirements
+											Get in touch with us 
+
 
 										</h2>
 									</div>
@@ -122,7 +123,8 @@ export default function Contact() {
 										className="text-white mt-3 mt-md-0 wow fadeInUp"
 										data-wow-delay=".5s"
 									>
-										We provide custom printing services tailored to your needs and aligned with your unique business goals
+										
+We provide services tailored to your needs and aligned with your unique business goals.
 									</p>
 									<div className="icon-items wow fadeInUp" data-wow-delay=".3s">
 										<div className="icon">

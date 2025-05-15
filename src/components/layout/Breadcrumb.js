@@ -5,12 +5,13 @@ export default function Breadcrumb({ breadcrumbTitle }) {
 		<>
 			<div
 				className="breadcrumb-wrapper bg-cover"
-				style={{ backgroundImage: 'url("assets/img/breadcrumb-bg.jpg")' }}
+				
+				// style={{ backgroundImage: 'url("assets/img/breadcrumb-bg.jpg")' }}
 			>
-				<div className="shape-image float-bob-y">
+				{/* <div className="shape-image float-bob-y">
 					<img src="assets/img/allimg/bg/bannershap.png" alt="img" />
-				</div>
-				<div className="container">
+				</div> */}
+				<div className="container" > 
 					<div className="breadcrumb-wrapper-items">
 						<div className="page-heading">
 							<div className="breadcrumb-sub-title">

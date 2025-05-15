@@ -99,7 +99,7 @@ export default function Project2() {
         }}
 										>
 											<h4>
-												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>UV Offset Ink </Link>
+												<Link to="/products" style={{color:'white' }}>UV Offset Ink </Link>
 											</h4>
 											{/* <span>
 												<i className="fa-sharp fa-solid fa-location-dot" /> 4648
@@ -125,7 +125,7 @@ export default function Project2() {
           width: "100%",
         }}>
 											<h4>
-												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>UV based screen printing Ink</Link>
+												<Link to="/products" style={{color:'white' }}>UV based screen printing Ink</Link>
 											</h4>
 											
 										</div>
@@ -148,7 +148,7 @@ export default function Project2() {
           width: "100%",
         }}>
 											<h4>
-												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>Dry offset Ink</Link>
+												<Link to="/products" style={{color:'white' }}>Dry offset Ink</Link>
 											</h4>
 											
 										</div>
@@ -171,7 +171,7 @@ export default function Project2() {
           width: "100%",
         }}>
 											<h4>
-												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>Solvent based screen printing Ink</Link>
+												<Link to="/products" style={{color:'white' }}>Solvent based screen<br/> printing Ink</Link>
 											</h4>
 											
 										</div>
@@ -195,7 +195,7 @@ export default function Project2() {
           width: "100%",
         }}>
 											<h4>
-												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>Letter press Inks</Link>
+												<Link to="/products" style={{color:'white' }}>Letter press Inks</Link>
 											</h4>
 											
 										</div>
@@ -220,7 +220,7 @@ export default function Project2() {
           width: "100%",
         }}>
 											<h4>
-												<Link to="/products" style={{color:'#4A136E' ,backgroundColor:'white'}}>UV varnishes</Link>
+												<Link to="/products" style={{color:'white'}}>UV varnishes</Link>
 											</h4>
 											
 										</div>

@@ -13,7 +13,7 @@ export default function About() {
 		<>
 			<Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us">
 				{/* <About1 /> */}
-			
+			<br/>
 				<News1 />
 			
 				{/* <Achivements /> */}

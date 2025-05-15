@@ -3391,9 +3391,13 @@ span {
 .breadcrumb-wrapper {
 	position: relative;
 	overflow: hidden;
-	z-index: 9;
-	padding-top: 255px;
-	padding-bottom: 120px;
+	/* z-index: 9; */
+	padding-top: 60px;
+	/* padding-top: 255px; */
+	padding-bottom: 60px;
+	background: linear-gradient(to top, #4A136E, rgb(20, 18, 15));
+
+
 }
 
 @media (max-width: 1199px) {
@@ -6063,7 +6067,11 @@ input.main-search-input::placeholder {
 .project-section .swiper-slide.swiper-slide-active .project-thumb .project-content {
 	opacity: 1;
 	visibility: visible;
-	bottom: 30px;
+	bottom: 10px;
+	background-color: #4A136E;
+	width: 80%;
+	text-align: center;
+	justify-content: center;
 }
 
 .project-section .project-dot {
