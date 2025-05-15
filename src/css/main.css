@@ -3395,7 +3395,8 @@ span {
 	padding-top: 60px;
 	/* padding-top: 255px; */
 	padding-bottom: 60px;
-	background: linear-gradient(to top, #4A136E, rgb(20, 18, 15));
+	/* background: linear-gradient(to top, #4A136E, rgb(20, 18, 15)); */
+	background-color: #4A136E;
 
 
 }
@@ -6067,11 +6068,12 @@ input.main-search-input::placeholder {
 .project-section .swiper-slide.swiper-slide-active .project-thumb .project-content {
 	opacity: 1;
 	visibility: visible;
-	bottom: 10px;
+	bottom: 0;
 	background-color: #4A136E;
 	width: 80%;
 	text-align: center;
 	justify-content: center;
+	/* border-radius: 0 20px 0 0; */
 }
 
 .project-section .project-dot {
