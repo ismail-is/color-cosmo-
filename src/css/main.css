@@ -2678,6 +2678,7 @@ span {
 .header-1 {
 	margin-left: 250px;
 	position: relative;
+	padding: 1px !important;
 }
 
 @media (max-width: 1899px) {
@@ -2688,8 +2689,8 @@ span {
 
 .header-1 .main-logo {
 	position: absolute;
-	top: 0;
-	left: -200px;
+	top: 20px;
+	left: 0;
 	z-index: 9;
 }
 
@@ -2743,9 +2744,36 @@ span {
 	}
 }
 
+/* custome */
+@media (min-width: 1900px) {
+  .header-1 .header-main .main-menu {
+    display: flex;
+    justify-content: center; /* Centers the whole menu */
+  }
+
+  .header-1 .header-main .main-menu ul {
+    display: flex;
+	
+    gap: 10px; /* Spacing between list items */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 540px; /* Only applies on big screens */
+  }
+
+  .header-1 .header-main .main-menu ul li {
+    padding: 30px 20px;
+    text-align: center;
+	
+  }
+}
+
+
+/* custome */
 .header-1 .header-main .header-right {
 	gap: 40px;
 }
+
 
 @media (max-width: 991px) {
 	.header-1 .header-main .header-right {
