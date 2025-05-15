@@ -78,7 +78,7 @@ export default function Service1() {
 							<SwiperSlide className="swiper-slide">
 								<div className="service-box-items">
 									<div className="service-thumb">
-										<img src="assets/img/allimg/process/1.png" alt="img" />
+										<img src="assets/img/allimg/process/2/4.png" alt="img" />
 										{/* <div className="icon">
 											<i className="fa-regular fa-truck-fast" />
 										</div> */}
@@ -89,7 +89,7 @@ export default function Service1() {
 											<Link to="#">Research & Development</Link>
 										</h3>
 										<p >
-										We innovate and refine UV, UV LED ink formulations to ensure superior performance and quality.
+										We develop and improve UV and UV LED ink formulations to ensure high performance, great print quality, and reliable results for various applications.
 										</p>
 										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />
@@ -100,7 +100,7 @@ export default function Service1() {
 							<SwiperSlide className="swiper-slide">
 								<div className="service-box-items">
 									<div className="service-thumb">
-										<img src="assets/img/allimg/process/2.png" alt="img" />
+										<img src="assets/img/allimg/process/2/3.png" alt="img" />
 										{/* <div className="icon">
 											<i className="fa-regular fa-truck-front" />
 										</div> */}
@@ -111,7 +111,7 @@ export default function Service1() {
 										<Link to="#">Precision Manufacturing</Link>
 										</h3>
 										<p>
-										Using advanced technology, we produce high-quality inks and coatings with excellent adhesion and durability.
+										Leveraging advanced technology, we create premium inks and coatings that offer outstanding adhesion and long-lasting durability.
 										</p>
 										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />
@@ -122,7 +122,7 @@ export default function Service1() {
 							<SwiperSlide className="swiper-slide">
 								<div className="service-box-items">
 									<div className="service-thumb">
-										<img src="assets/img/allimg/process/3.png" alt="img" />
+										<img src="assets/img/allimg/process/2/2.png" alt="img" />
 										{/* <div className="icon">
 											<i className="fas fa-pallet" />
 										</div> */}
@@ -133,7 +133,7 @@ export default function Service1() {
 										<Link to="#">R&D, Quality Assurance</Link>
 										</h3>
 										<p>
-										Every product undergoes strict testing to meet industry standards for consistency, curing speed, and longevity.
+										Each product is rigorously tested to ensure it meets industry standards for consistency, fast curing, and long-term durability.
 										</p>
 										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />
@@ -155,7 +155,7 @@ export default function Service1() {
 										<Link to="#">Support & Delivery</Link>
 										</h3>
 										<p>
-										We provide tailored solutions, reliable distribution, and expert technical support for seamless application
+										We offer customized solutions, dependable distribution, and expert technical support to ensure smooth and efficient application.
 										</p>
 										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />

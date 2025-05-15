@@ -24,7 +24,7 @@ export default function Achivements() {
 										</h2>
 									</div>
 									<div><h6 className="wow fadeInUp">
-											ACHIVEMENTS
+											Achivements
 										</h6>
 									<p className="mt-3 mt-md-0 wow fadeInUp">
 									With over 50 years of combined expertise, we specialize in tailor-made ink solutions for diverse packaging materials and industries.

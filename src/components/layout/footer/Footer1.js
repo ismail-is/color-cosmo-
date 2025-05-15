@@ -209,14 +209,14 @@ export default function Footer1() {
 											<Link to="/products">
 												<i className="fa-solid fa-chevrons-right" />
 												
-												UV varnishes 
+												UV Varnishes 
 											</Link>
 										</li>
 										<li>
 											<Link to="/products">
 												<i className="fa-solid fa-chevrons-right" />
 												
-												consumables
+												Consumables
 											</Link>
 										</li>
 										

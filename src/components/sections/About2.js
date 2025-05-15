@@ -1357,7 +1357,7 @@ Best for :-
 								<div className='d-none d-md-flex'>
 								<div className="about-image">
 									<img
-										src="assets/img/allimg/Ourproducts/17.png"
+										src="assets/img/allimg/products/2/2.png"
 										alt="img"
 										className="wow fadeInLeft"
 										data-wow-delay=".3s"
@@ -1366,7 +1366,7 @@ Best for :-
 										className="about-image-2 wow fadeInUp"
 										data-wow-delay=".2s"
 									>
-										<img src="assets/img/allimg/Ourproducts/18.png" alt="img" />
+										<img src="assets/img/allimg/products/2/1.png" alt="img" />
 									</div>
 									{/* <div className="video-items wow fadeInUp">
 										<a

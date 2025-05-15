@@ -95,7 +95,7 @@ export default function Service2() {
 											<Link to="/contact">Color Matching</Link>
 										</h3>
 										<p style={{textAlign:'justify'}}>
-										We provide precise color matching services to ensure your prints, products, or designs achieve the exact shade you need. Our advanced technology and expertise guarantee consistency across different materials and applications, giving you vibrant and accurate results every time.
+										We offer expert color matching services to ensure your prints, products, or designs achieve the exact shade you envision. With advanced technology and skilled precision, we deliver consistent, vibrant, and accurate colors across all materials and applications—every single time.
 										</p>
 										<Link to="/contact" className="link-btn">
 								Get This Service <i className="fa-solid fa-arrow-right" />
@@ -122,7 +122,7 @@ export default function Service2() {
 											<Link to="/contact">Custom Made Inks</Link>
 										</h3>
 										<p>
-										Our custom-made inks are formulated to meet your specific requirements, whether you need unique shades, enhanced durability, or eco-friendly solutions. We work closely with you to develop high-quality inks that deliver superior performance and perfect color precision.
+										Our custom-formulated inks are designed to match your exact needs—be it distinctive shades, increased durability, or environmentally friendly options. We collaborate with you to create high-performance inks that ensure exceptional quality and precise color accuracy.
 										</p>
 										<Link to="/contact" className="link-btn">
 										Get This Service  <i className="fa-solid fa-arrow-right" />
@@ -150,7 +150,7 @@ export default function Service2() {
 											Troubleshooting</Link>
 										</h3>
 										<p>
-										Our dedicated technical support team is always ready to assist you with any challenges you may face. From troubleshooting to expert guidance, we provide reliable solutions to ensure smooth operations, enhanced efficiency, and optimal results for your projects.
+										Our committed technical support team is here to help you overcome any challenges you encounter. Whether it's troubleshooting or expert advice, we offer dependable solutions to keep your operations running smoothly, boost efficiency, and achieve the best possible outcomes for your projects.
 										</p>
 										<Link to="/contact" className="link-btn">
 										Get This Service  <i className="fa-solid fa-arrow-right" />

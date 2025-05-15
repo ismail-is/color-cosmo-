@@ -22,8 +22,9 @@ export default function Home() {
 
 				<About1 />
 			<Brand1 />
+			<Service1 />
 			<Achivements />
-				{/* <Service1 /> */}
+				
 				{/* <CtaBanner /> */}
 				{/* <OurSkills /> */}
 				{/* <Project1 /> */}
