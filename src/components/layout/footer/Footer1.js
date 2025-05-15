@@ -31,9 +31,11 @@ export default function Footer1() {
 						>
 							
 							<div className="contact">
+								<Link to='contact'>
 							<button type="submit" className="theme-btn">
 							Contact Us<i className="fas fa-long-arrow-right" />
 												</button>
+												</Link>
 							</div>
 						</div>
 					</div>
