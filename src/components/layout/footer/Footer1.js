@@ -112,11 +112,12 @@ export default function Footer1() {
 										</p>
 										<div className="social-icon d-flex align-items-center">
 											
-											<Link to="/#">
-												<i className="fab fa-whatsapp" />
-											</Link>
+										<Link to="https://wa.me/971589996806" target="_blank" rel="noopener noreferrer">
+  <i className="fab fa-whatsapp" /> 
+</Link>
+
 										
-											<Link to="/#">
+											<Link to="https://www.linkedin.com/company/color-cosmo-f-z-c/?originalSubdomain=in" target="_blank">
 												<i className="fab fa-linkedin-in" />
 											</Link>
 										</div>
