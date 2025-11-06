@@ -1,5 +1,5 @@
-import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import About from "./pages/about.js"
 // import Blog from "./pages/blog.js"
 import Contact from "./pages/contact.js"
@@ -21,11 +21,24 @@ import Team from "./pages/team.js"
 import NotFound from "./pages/404.js"
 import Products from './pages/products.js'
 
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 export default function MainRouter() {
 	return (
 		<>
 			<BrowserRouter  >
+								 <ScrollToTop />
 				<Routes>
+
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					{/* <Route path="/blog" element={<Blog />} /> */}

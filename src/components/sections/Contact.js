@@ -133,10 +133,10 @@ We provide services tailored to your needs and aligned with your unique busines
 										<div className="content">
 											<span>Contact Us    to know more</span>
 											<h4>
-												<Link to="/tel:971589996806">+971 5899 96806</Link>
+												<a href="https://wa.me/971589996806" target="blank">+971 58 999 6806</a>
 											</h4>
 											<h4>
-												<Link to="/tel:97167454004">+971 6745 4004</Link>
+												<Link to="/tel:97167454004">+971 6 745 4004</Link>
 											</h4>
 										</div>
 									</div>

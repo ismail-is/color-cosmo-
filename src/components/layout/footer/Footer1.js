@@ -244,10 +244,10 @@ export default function Footer1() {
 										</li>
 										
 										<li>
-									<Link to="/tel:+971 58 999 6806">+971 5899 96806</Link>
+									<a href="https://wa.me/971589996806" target="blank">+971 58 999 6806</a>
 										</li>
 										<li>
-									<Link to="/tel:+97167454004">+971 6745 4004</Link>
+									<Link to="/tel:97167454004">+971 6 745 4004</Link>
 										</li>
 										
 									

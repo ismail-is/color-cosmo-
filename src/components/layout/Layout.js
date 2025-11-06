@@ -39,7 +39,7 @@ export default function Layout({
 		window.wow.init()
 
 		const onScroll = () => {
-			setScroll(window.scrollY > 100)
+			setScroll(window.scrollY > 10)
 		}
 
 		window.addEventListener("scroll", onScroll)

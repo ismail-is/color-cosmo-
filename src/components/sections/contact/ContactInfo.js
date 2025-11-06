@@ -63,7 +63,7 @@ export default function ContactInfo() {
 							<div className="content">
 								<h3>Phone Number</h3>
 								<p>
-									<Link to="/tel:971589996806">+971 5899 96806</Link>{" "}
+									<a href="https://wa.me/971589996806" target="blank">+971 58 999 6806</a>{" "}
 									
 								</p>
 							</div>
