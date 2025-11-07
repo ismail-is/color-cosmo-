@@ -53,7 +53,7 @@ export default function OurSkills({ alt }) {
 												<div
 													className="progress-bar"
 													style={{
-														width: "70%",
+														width: "100%",
 														animation:
 															"2.6s ease 0s 1 normal none running animate-positive",
 														opacity: 1,
@@ -74,7 +74,7 @@ export default function OurSkills({ alt }) {
 												<div
 													className="progress-bar"
 													style={{
-														width: "90%",
+														width: "100%",
 														animation:
 															"2.6s ease 0s 1 normal none running animate-positive",
 														opacity: 1,
@@ -96,7 +96,7 @@ export default function OurSkills({ alt }) {
 												<div
 													className="progress-bar"
 													style={{
-														width: "75%",
+														width: "100%",
 														animation:
 															"2.6s ease 0s 1 normal none running animate-positive",
 														opacity: 1,

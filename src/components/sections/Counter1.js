@@ -45,7 +45,7 @@ export default function Counter1() {
             </div>
             <h2>
               <span className="count">
-                <CounterNumber count={10} />
+                <CounterNumber count={0} />
               </span>
               +
             </h2>
