@@ -70,10 +70,9 @@ export default function Service2() {
 							<i className="fa-regular fa-arrow-right-long" />
 						</h6>
 						<h2 className="text-white wow fadeInUp" data-wow-delay=".2s">
-						Innovative Solutions in <br/> Coatings &
-						Inks!
+						Innovating the Future of Coatings & Inks
 						</h2>
-						<p style={{color:'white',fontWeight:'initial'}}>We offer a comprehensive range of services, including custom color matching, specialty coatings, and high-performance UV, UV LED  printing inks, tailored to meet the diverse needs of various industries. Our expertise ensures precision, durability, and vibrant results across all applications. With cutting-edge technology and a commitment to quality, we deliver innovative solutions that enhance product performance and visual appeal.</p>
+						<p style={{color:'white',fontWeight:'initial'}}>We offer a comprehensive range of services, including custom color matching, specialty coatings, and high-performance UV and UV LED printing inks—tailored to meet the diverse needs of multiple industries. Our expertise ensures precision, durability, and vibrant results across all applications. Backed by cutting-edge technology and a strong commitment to quality, we deliver innovative solutions that enhance product performance and visual appeal.</p>
 					</div>
 				</div>
 				<div className="container-fluid">
@@ -95,8 +94,7 @@ export default function Service2() {
 											<Link to="#">Color Matching</Link>
 										</h3>
 										<p style={{textAlign:'justify'}}>
-										We offer expert color matching services to ensure your prints, products, or designs achieve the exact shade you envision. With advanced technology and skilled precision, we deliver consistent, vibrant, and accurate colors across all materials and applications—every single time.
-										</p>
+We offer expert color-matching services to ensure your prints, products, and designs achieve the exact shade you envision. With advanced technology and skilled precision, we deliver consistent, vibrant, and accurate colors across all materials and applications—every single time.										</p>
 										<Link to="/contact" className="link-btn">
 								Get This Service <i className="fa-solid fa-arrow-right" />
 										</Link>
@@ -122,8 +120,7 @@ export default function Service2() {
 											<Link to="#">Custom Made Inks</Link>
 										</h3>
 										<p>
-										Our custom-formulated inks are designed to match your exact needs—be it distinctive shades, increased durability, or environmentally friendly options. We collaborate with you to create high-performance inks that ensure exceptional quality and precise color accuracy.
-										</p>
+Our custom-formulated inks are designed to meet your exact requirements—whether you need unique shades, enhanced durability, or eco-friendly options. We work closely with you to develop high-performance inks that deliver exceptional quality and precise color accuracy.										</p>
 										<Link to="/contact" className="link-btn">
 										Get This Service  <i className="fa-solid fa-arrow-right" />
 										</Link>
@@ -150,8 +147,7 @@ export default function Service2() {
 											Troubleshooting</Link>
 										</h3>
 										<p>
-										Our committed technical support team is here to help you overcome any challenges you encounter. Whether it's troubleshooting or expert advice, we offer dependable solutions to keep your operations running smoothly, boost efficiency, and achieve the best possible outcomes for your projects.
-										</p>
+Our dedicated technical support team is here to help you overcome any challenges. Whether you need troubleshooting assistance or expert guidance, we provide reliable solutions to keep your operations running smoothly, enhance efficiency, and deliver the best results for your projects.										</p>
 										<Link to="/contact" className="link-btn">
 										Get This Service  <i className="fa-solid fa-arrow-right" />
 										</Link>
