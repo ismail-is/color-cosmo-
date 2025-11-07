@@ -188,7 +188,7 @@ export default function Footer1() {
 											</Link>
 										</li>
 										<li className="footertag" >
-											<Link to="/products">
+											<Link to="/products" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 												
 												Screen Printing Inks
