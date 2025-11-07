@@ -50,16 +50,16 @@ export default function Project2() {
 								<i className="fa-regular fa-arrow-right-long" />
 							</h6> */}
 							<h2 className="wow fadeInUp" data-wow-delay=".2s">
-								Explore Our Project
+								Explore our projects 
 							</h2>
 						</div>
-						<Link
+						{/* <Link
 							to="/products"
 							className="theme-btn wow fadeInUp"
 							data-wow-delay=".4s"
 						>
 							 our projects <i className="fa-regular fa-arrow-right" />
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 				<div className="project-wrapper-2">

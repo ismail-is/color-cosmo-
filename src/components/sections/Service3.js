@@ -54,14 +54,14 @@ export default function Service3() {
 				<div className="container">
 					<div className="section-title text-center">
 						<h6 className="wow fadeInUp" style={{color:'#CB239A'}}>
-							<i className="fa-regular fa-arrow-left-long" />
+							{/* <i className="fa-regular fa-arrow-left-long" />
 							our process
-							<i className="fa-regular fa-arrow-right-long" />
+							<i className="fa-regular fa-arrow-right-long" /> */}
 						</h6>
-						{/* <h2 className="wow fadeInUp text-white" data-wow-delay=".2s">
-						Our Work Process
-						</h2> */}
-						<h5 className="wow fadeInUp text-white" data-wow-delay=".2s" >We follow a streamlined process to ensure top-quality UV & LED inks and coatings. From R&D to production, every step is expertly managed to deliver durable, high-performance printing solutions.</h5>
+						<h2 className="wow fadeInUp text-white" data-wow-delay=".2s">
+				What Our Clients Say
+						</h2>
+						{/* <h5 className="wow fadeInUp text-white" data-wow-delay=".2s" >We follow a streamlined process to ensure top-quality UV & LED inks and coatings. From R&D to production, every step is expertly managed to deliver durable, high-performance printing solutions.</h5> */}
 					</div>
 					<div className="array-button">
 						<button className="array-prev h1p">
