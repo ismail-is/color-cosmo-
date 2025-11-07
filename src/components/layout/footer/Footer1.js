@@ -239,15 +239,15 @@ export default function Footer1() {
 										<li>
 										<p style={{color:'rgb(217 217 215 / 80%)'}}>Warehouse B1-13, Gate<br/> 1,Ajman Freezone, Ajman, UAE</p>
 										</li>
-										<li>
-									<Link to="/mailto:info@colorcosmo.com">info@colorcosmo.com</Link>
+										<li className="footertag">
+									<Link to="/mailto:info@colorcosmo.com" className="footertag">info@colorcosmo.com</Link>
 										</li>
 										
-										<li>
-									<a href="https://wa.me/971589996806" target="blank">+971 58 999 6806</a>
+										<li className="footertag">
+									<a href="https://wa.me/971589996806" target="blank" className="footertag">+971 58 999 6806</a>
 										</li>
-										<li>
-									<Link to="/tel:97167454004">+971 6 745 4004</Link>
+										<li className="footertag">
+									<Link to="/tel:97167454004" className="footertag">+971 6 745 4004</Link>
 										</li>
 										
 									
