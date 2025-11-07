@@ -49,7 +49,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 							<div className="header-main">
 								<div className="logo d-none">
 									<Link to="/" className="header-logo">
-										<img src="assets/img/allimg/logo.png" alt="logo-img" />
+										<img src="assets/img/allimg/logo.png" alt="logo-img"  style={{height:'70px'}}/>
 									</Link>
 								</div>
 								<div className="header-left">
