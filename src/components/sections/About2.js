@@ -1467,7 +1467,7 @@ Best for :-
 {/* 6 */}
 
 
-<section className="about-section fix section-padding" id="about">
+<section className="about-section fix section-padding" id="about" style={{marginTop:'-140px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
 				</div> */}
