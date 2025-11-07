@@ -11,6 +11,7 @@ import OurSkills from "../components/sections/OurSkills"
 import Project1 from "../components/sections/Project1"
 import Project2 from "../components/sections/Project2"
 import Service1 from "../components/sections/Service1"
+import Service3 from "../components/sections/Service3"
 import Team1 from "../components/sections/Team1"
 import Testimonial1 from "../components/sections/Testimonial1"
 import Whatsapp from "../components/sections/Whatsapp"
@@ -22,7 +23,7 @@ export default function Home() {
 
 				<About1 />
 			<Brand1 />
-			<Service1 />
+			<Service3 />
 			<Achivements />
 				
 				{/* <CtaBanner /> */}
