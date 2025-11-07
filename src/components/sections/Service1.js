@@ -58,10 +58,10 @@ export default function Service1() {
 							our process
 							<i className="fa-regular fa-arrow-right-long" />
 						</h6>
-						<h2 className="wow fadeInUp text-white" data-wow-delay=".2s">
+						{/* <h2 className="wow fadeInUp text-white" data-wow-delay=".2s">
 						Our Work Process
-						</h2>
-						<h5 className="wow fadeInUp text-white" data-wow-delay=".2s" style={{marginTop:'70px', fontWeight:'normal'}}>We follow a streamlined process to ensure top-quality UV & LED inks and coatings. From R&D to production, every step is expertly managed to deliver durable, high-performance printing solutions.</h5>
+						</h2> */}
+						<h5 className="wow fadeInUp text-white" data-wow-delay=".2s" >We follow a streamlined process to ensure top-quality UV & LED inks and coatings. From R&D to production, every step is expertly managed to deliver durable, high-performance printing solutions.</h5>
 					</div>
 					<div className="array-button">
 						<button className="array-prev h1p">
@@ -89,21 +89,18 @@ export default function Service1() {
 											<Link to="#">Research & Development</Link>
 										</h3>
 										<p >
-										We develop and improve UV and UV LED ink formulations to ensure high performance, great print quality, and reliable results for various applications.
-										</p>
+We create and enhance UV and UV LED ink formulations to deliver high performance, excellent print quality, and reliable results across multiple applications.										</p>
 										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />
 										</Link> */}
 									</div>
 								</div>
 							</SwiperSlide>
-							<SwiperSlide className="swiper-slide">
+							{/* <SwiperSlide className="swiper-slide">
 								<div className="service-box-items">
 									<div className="service-thumb">
 										<img src="assets/img/allimg/process/2/3.png" alt="img" />
-										{/* <div className="icon">
-											<i className="fa-regular fa-truck-front" />
-										</div> */}
+										
 									</div>
 									<div className="service-content">
 										<h2 className="number">02</h2>
@@ -113,12 +110,10 @@ export default function Service1() {
 										<p>
 										Leveraging advanced technology, we create premium inks and coatings that offer outstanding adhesion and long-lasting durability.
 										</p>
-										{/* <Link to="/service-details" className="link-btn">
-											Explore More <i className="fa-solid fa-arrow-right" />
-										</Link> */}
+										
 									</div>
 								</div>
-							</SwiperSlide>
+							</SwiperSlide> */}
 							<SwiperSlide className="swiper-slide">
 								<div className="service-box-items">
 									<div className="service-thumb">
@@ -128,13 +123,12 @@ export default function Service1() {
 										</div> */}
 									</div>
 									<div className="service-content">
-										<h2 className="number">03</h2>
+										<h2 className="number">02</h2>
 										<h3>
 										<Link to="#">R&D, Quality Assurance</Link>
 										</h3>
 										<p>
-										Each product is rigorously tested to ensure it meets industry standards for consistency, fast curing, and long-term durability.
-										</p>
+Each product undergoes rigorous testing to meet industry standards for consistency, fast curing, and long-lasting durability.										</p>
 										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />
 										</Link> */}
@@ -150,13 +144,12 @@ export default function Service1() {
 										</div> */}
 									</div>
 									<div className="service-content">
-										<h2 className="number">04</h2>
+										<h2 className="number">03</h2>
 										<h3>
 										<Link to="#">Support & Delivery</Link>
 										</h3>
 										<p>
-										We offer customized solutions, dependable distribution, and expert technical support to ensure smooth and efficient application.
-										</p>
+We provide tailored solutions, reliable distribution, and expert technical support to ensure seamless and efficient application.										</p>
 										{/* <Link to="/service-details" className="link-btn">
 											Explore More <i className="fa-solid fa-arrow-right" />
 										</Link> */}
