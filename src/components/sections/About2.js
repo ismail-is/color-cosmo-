@@ -295,11 +295,10 @@ export default function About2() {
 									</div>
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
 									
-								At Color Cosmo FZC, we manufacture high-performance overprint varnishes that
-enhance both the look and durability of printed materials. From high-gloss brilliance to
-matte elegance, our OPVs are formulated for offset, screen, and flexo printing, offering
-fast drying, scuff resistance, and food-safe options—delivering a flawless finish, every
-time.
+								Our advanced UV ink systems are engineered for unrivaled adhesion on challenging
+plastic substrates like PVC, PET, polycarbonate, acrylic, and even treated PE/PP.
+Whether you're decorating cosmetic packaging, labeling consumer goods, or producing
+outdoor signage, our ink delivers sharp definition and high color depth every single time.
 
 
 									</p>
@@ -326,7 +325,7 @@ time.
 </div>
 
 
-									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+									{/* <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
 										<h4 className="wow fadeInUp" data-wow-delay=".2s">
 										
 Key Features & Product Range :-
@@ -391,8 +390,133 @@ or compliance needs
 
 										</li>
 
+									</ul> */}
+
+	<div className="row g-4 mt-3">
+										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Applicable Substrates
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+								
+									
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											PVC
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											PET
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Polycarbonate
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Acrylics
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Treated HDPE and PP 
+										</li>
+										
+									</ul>
+										</div>
+										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Color Availability
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+								
+										
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Cyan
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Magenta
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Yellow
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Black
+
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Pantone Shades
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Bespoke Color Matching
+										</li>
 									</ul>
 
+										</div>
+										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
+										<h3 className="wow fadeInUp" data-wow-delay=".2s">
+										
+										Properties
+											</h3>
+										<ul className="list-items wow fadeInUp" data-wow-delay=".2s" style={{marginTop:'10px'}}>
+								
+										
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Excellent Adhesion
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Low Shrinkage
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Excellent Chemical Resistance
+										</li>
+										
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											High Lightfastness
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											High Scratch and Abrasion Resistance
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+										Low Odor
+										</li>
+										
+									</ul>
+
+										</div>
+									</div>
+									
 									{/* <div className="row g-4 mt-3">
 										<div className="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
 											<div className="icon-items">
@@ -1404,11 +1528,10 @@ Best for :-
 									</div>
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
 									At Color Cosmo FZC, we go beyond inks—we provide the full range of screen printing,
-Offset and Flexo printing consumables that bring your print process to life. Every
-product is carefully selected to ensure consistent quality, reduce downtime, and support
+Offset and Flexo printing consumables that bring your print process to life. Every product
+is carefully selected to ensure consistent quality, reduce downtime, and support
 professional, high-efficiency printing. With Color Cosmo FZC, your printshop is powered
 by a trusted partner in every layer of the process.
-
 									</p>
 
 									<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
@@ -1468,6 +1591,16 @@ by a trusted partner in every layer of the process.
 											{" "}
 											<i className="fa-solid fa-circle-check" />
 											Blackout Solutions & Tapes 
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Screen Wash & Cleaning Agents  
+										</li>
+										<li>
+											{" "}
+											<i className="fa-solid fa-circle-check" />
+											Degreasers & Haze Removers 
 										</li>
 										
 									</ul>
