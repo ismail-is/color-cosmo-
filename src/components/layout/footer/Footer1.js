@@ -135,33 +135,33 @@ export default function Footer1() {
 										<h5>Quick Link</h5>
 									</div>
 									<ul className="list-area">
-										<li>
-											<Link to="/">
+										<li className="footertag">
+											<Link to="/" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 											Home
 											</Link>
 										</li>
 										
-										<li>
-											<Link to="/about">
+										<li className="footertag">
+											<Link to="/about" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 											About
 											</Link>
 										</li>
-										<li>
-											<Link to="/service">
+										<li className="footertag">
+											<Link to="/service" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 												Our Services
 											</Link>
 										</li>
-										<li>
-											<Link to="/products">
+										<li className="footertag">
+											<Link to="/products" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 												Products
 											</Link>
 										</li>
-										<li>
-											<Link to="/contact">
+										<li className="footertag">
+											<Link to="/contact" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 												Contact Us
 											</Link>
@@ -178,45 +178,45 @@ export default function Footer1() {
 									<div className="widget-head">
 										<h5>Products</h5>
 									</div>
-									<ul className="list-area">
-										<li>
-											<Link to="/products">
+									<ul className="list-area" >
+										<li className="footertag">
+											<Link to="/products" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 												Dry Offset Inks
 
 
 											</Link>
 										</li>
-										<li>
+										<li className="footertag" >
 											<Link to="/products">
 												<i className="fa-solid fa-chevrons-right" />
 												
 												Screen Printing Inks
 											</Link>
 										</li>
-										<li>
-											<Link to="/products">
+										<li className="footertag">
+											<Link to="/products" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 												UV Offset Printing Inks
 
 											</Link>
 										</li>
-										<li>
-											<Link to="/products">
+										<li className="footertag">
+											<Link to="/products" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 												
 												UV Letterpress Inks
 											</Link>
 										</li>
-										<li>
-											<Link to="/products">
+										<li className="footertag">
+											<Link to="/products" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 												
 												UV Varnishes 
 											</Link>
 										</li>
-										<li>
-											<Link to="/products">
+										<li className="footertag">
+											<Link to="/products" className="footertag">
 												<i className="fa-solid fa-chevrons-right" />
 												
 												Consumables
