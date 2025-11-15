@@ -60,7 +60,8 @@ export default function Service4() {
         background: 'linear-gradient(135deg, #4A136E 0%, #2D1B69 50%, #1A237E 100%)',
         position: 'relative',
         overflow: 'hidden',
-        padding: '100px 0'
+        padding: '100px 0',
+         marginTop:window.innerWidth<=768 ? "-150px" : "0",
       }}>
         {/* Animated Background Elements */}
         <div className="bg-animation">
@@ -99,9 +100,12 @@ export default function Service4() {
               background: 'linear-gradient(45deg, #FFFFFF, #E0E0E0)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text'
+              backgroundClip: 'text',
+             
+             
+
             }}>
-             Engineered coatings and inks for superior<br />
+             Engineered coatings and inks for superior <br />
               <span style={{
                 background: 'linear-gradient(45deg, #FFD700, #FF6B00)',
                 WebkitBackgroundClip: 'text',
