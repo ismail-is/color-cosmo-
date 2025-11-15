@@ -8,7 +8,7 @@ export default function Service4() {
       description: "WWe provide precise color calibration services using advanced spectrophotometric technology to ensure your printed materials, products, and designs achieve the exact shade you require. Our expert color management and controlled workflows maintain consistent accuracy across different substrates and production processes, delivering vibrant, repeatable, and brand-true results every time. ",
       icon: "fa-sharp fa-solid fa-swatchbook",
       features: ["Advanced Color Technology", "Consistent Results", "All Materials Supported"],
-      gradient: "linear-gradient(135deg, #FFD700, #FF6B00)",
+      gradient: "linear-gradient(135deg, #4A136E, #2A9DF4)",
       image: "assets/img/allimg/service/1.webp",
       link: "/contact"
     },
@@ -18,7 +18,7 @@ export default function Service4() {
       description: "We can develop application-specific ink systems—UV/UV-LED, water-based, or solvent— precisely tuned to your required shade, opacity, viscosity, adhesion, and curing profile for the target substrates and printing methods. Through controlled lab trials and press trials we can validate stability and printability, ensuring reliable color accuracy, durability and productionready performance on every run.",
       icon: "fa-solid fa-paintbrush-pencil",
       features: ["Tailored Formulations", "Eco-Friendly Options", "Enhanced Durability"],
-      gradient: "linear-gradient(135deg, #4A136E, #2A9DF4)",
+      gradient: "linear-gradient(135deg, #4CAF50, #2196F3)",
       image: "assets/img/allimg/service/2.webp",
       link: "/contact"
     },
@@ -28,7 +28,7 @@ export default function Service4() {
       description: "Each ink batch is validated through vigilant lab testing at every step of production to ensure quality assurance. We test for uniformity of color strength and viscosity, curing, adhesion and shelf-life set according to the customer standards.",
       icon: "fas fa-headset",
       features: ["24/7 Expert Support", "Quick Problem Resolution", "Performance Optimization"],
-      gradient: "linear-gradient(135deg, #4CAF50, #2196F3)",
+      gradient: "linear-gradient(135deg, #9C27B0, #E91E63)",
       image: "assets/img/allimg/service/3.webp",
       link: "/contact"
     },
@@ -38,17 +38,17 @@ export default function Service4() {
       description: "We offer tailored implementation support along with press-side and remote assistance to ensure seamless production and optimized performance from start to finish. Our experts work closely with you to maximize efficiency and achieve consistent, high-quality results.",
       icon: "fa-solid fa-sun",
       features: ["Fast Curing Times", "Superior Durability", "Eco-Friendly Solution"],
-      gradient: "linear-gradient(135deg, #9C27B0, #E91E63)",
+      gradient: "linear-gradient(135deg, #4CAF50, #2196F3)",
       image: "assets/img/allimg/service/5.png",
       link: "/contact"
     },
     {
       id: 5,
       title: "Research & Development",
-      description: "At Color Cosmo, we are committed to continuous growth and innovation. Our Research and Development team is dedicated to enhancing ink performance and developing new products that add real value for our customers. We also provide tailor-made solutions, customized to meet each client’s unique requirements and ensure optimal results.",
+      description: "At Color Cosmo, we are committed to continuous growth and innovation. Our Research and Development team is dedicated to enhancing ink performance and developing new products that add real value for our customers. We also provide tailor-made solutions, customized to meet each client's unique requirements and ensure optimal results.",
       icon: "fa-solid fa-award",
       features: ["Rigorous Testing", "Batch Certification", "Consistent Quality"],
-      gradient: "linear-gradient(135deg, #FF9800, #FF5722)",
+      gradient: "linear-gradient(135deg, #4A136E, #2A9DF4)",
       image: "assets/img/allimg/service/4.png",
       link: "/contact"
     }
@@ -61,7 +61,7 @@ export default function Service4() {
         position: 'relative',
         overflow: 'hidden',
         padding: '100px 0',
-         marginTop:window.innerWidth<=768 ? "-150px" : "0",
+        marginTop: window.innerWidth <= 768 ? "-150px" : "0",
       }}>
         {/* Animated Background Elements */}
         <div className="bg-animation">
@@ -75,22 +75,6 @@ export default function Service4() {
 
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="section-header text-center">
-            {/* <div className="section-badge">
-              <span style={{
-                background: 'rgba(255,255,255,0.1)',
-                color: 'white',
-                padding: '8px 20px',
-                borderRadius: '25px',
-                fontSize: '14px',
-                fontWeight: '600',
-                letterSpacing: '1px',
-                backdropFilter: 'blur(10px)',
-                border: '1px solid rgba(255,255,255,0.2)'
-              }}>
-                OUR EXPERTISE
-              </span>
-            </div> */}
-            
             <h2 className="section-title" style={{
               color: 'white',
               fontSize: 'clamp(2rem, 4vw, 3.5rem)',
@@ -101,9 +85,6 @@ export default function Service4() {
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
-             
-             
-
             }}>
              Engineered coatings and inks for superior <br />
               <span style={{
@@ -138,45 +119,16 @@ export default function Service4() {
                 key={service.id}
                 className="service-card"
                 style={{
-                  background: 'rgba(255,255,255,0.05)',
-                  backdropFilter: 'blur(20px)',
-                  border: '1px solid rgba(255,255,255,0.1)',
+                  background: service.gradient,
+                  border: '1px solid rgba(255,255,255,0.2)',
                   borderRadius: '20px',
                   padding: '30px',
                   position: 'relative',
                   overflow: 'hidden',
-                  transition: 'all 0.4s ease',
-                  cursor: 'pointer',
-                  height: '100%'
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-10px)';
-                  e.currentTarget.style.borderColor = 'rgba(255,255,255,0.3)';
-                  const bg = e.currentTarget.querySelector('.card-bg');
-                  if (bg) bg.style.opacity = '1';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
-                  const bg = e.currentTarget.querySelector('.card-bg');
-                  if (bg) bg.style.opacity = '0';
+                  height: '100%',
+                  boxShadow: '0 10px 30px rgba(0,0,0,0.3)'
                 }}
               >
-                {/* Background Overlay */}
-                <div 
-                  className="card-bg" 
-                  style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    background: service.gradient,
-                    opacity: 0,
-                    transition: 'opacity 0.4s ease'
-                  }}
-                ></div>
-
                 {/* Service Image */}
                 <div className="service-image" style={{
                   width: '100%',
@@ -193,36 +145,10 @@ export default function Service4() {
                     style={{
                       width: '100%',
                       height: '100%',
-                      objectFit: 'cover',
-                      transition: 'transform 0.4s ease'
-                    }}
-                    onMouseEnter={(e) => {
-                      e.target.style.transform = 'scale(1.1)';
-                    }}
-                    onMouseLeave={(e) => {
-                      e.target.style.transform = 'scale(1)';
+                      objectFit: 'cover'
                     }}
                   />
                 </div>
-
-                {/* Service Icon */}
-                {/* <div className="service-icon" style={{
-                  width: '70px',
-                  height: '70px',
-                  background: service.gradient,
-                  borderRadius: '15px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  marginBottom: '20px',
-                  position: 'relative',
-                  zIndex: 2
-                }}>
-                  <i className={service.icon} style={{ 
-                    fontSize: '1.8rem', 
-                    color: 'white' 
-                  }} />
-                </div> */}
 
                 {/* Service Content */}
                 <div className="service-content" style={{ position: 'relative', zIndex: 2 }}>
@@ -237,40 +163,13 @@ export default function Service4() {
                   </h3>
                   
                   <p style={{
-                    color: 'rgba(255,255,255,0.8)',
+                    color: 'rgba(255,255,255,0.9)',
                     lineHeight: '1.6',
                     marginBottom: '20px',
                     fontSize: '0.95rem'
                   }}>
                     {service.description}
                   </p>
-
-                  {/* Features List */}
-                  {/* <div className="service-features" style={{ marginBottom: '25px' }}>
-                    {service.features.map((feature, featureIndex) => (
-                      <div 
-                        key={featureIndex}
-                        className="feature-item" 
-                        style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          marginBottom: '8px',
-                          color: 'rgba(255,255,255,0.9)',
-                          fontSize: '0.9rem'
-                        }}
-                      >
-                        <i className="fa-solid fa-check" style={{ 
-                          color: service.gradient.includes('FFD700') ? '#FFD700' : 
-                                 service.gradient.includes('4A136E') ? '#2A9DF4' :
-                                 service.gradient.includes('4CAF50') ? '#4CAF50' :
-                                 service.gradient.includes('9C27B0') ? '#E91E63' : '#FF9800', 
-                          marginRight: '10px',
-                          fontSize: '0.8rem'
-                        }} />
-                        {feature}
-                      </div>
-                    ))}
-                  </div> */}
 
                   {/* CTA Button */}
                   <Link 
@@ -279,7 +178,7 @@ export default function Service4() {
                     style={{
                       display: 'inline-flex',
                       alignItems: 'center',
-                      background: service.gradient,
+                      background: 'rgba(255,255,255,0.2)',
                       color: 'white',
                       padding: '12px 25px',
                       borderRadius: '50px',
@@ -287,18 +186,23 @@ export default function Service4() {
                       fontWeight: '600',
                       fontSize: '0.9rem',
                       transition: 'all 0.3s ease',
-                      border: 'none',
+                      border: '1px solid rgba(255,255,255,0.3)',
                       cursor: 'pointer',
                       position: 'relative',
-                      zIndex: 2
+                      zIndex: 2,
+                      backdropFilter: 'blur(10px)'
                     }}
                     onMouseEnter={(e) => {
-                      e.target.style.transform = 'translateY(-2px)';
-                      e.target.style.boxShadow = '0 10px 25px rgba(0,0,0,0.2)';
+                      const icon = e.target.querySelector('i');
+                      if (icon) {
+                        icon.style.transform = 'translateX(5px)';
+                      }
                     }}
                     onMouseLeave={(e) => {
-                      e.target.style.transform = 'translateY(0)';
-                      e.target.style.boxShadow = 'none';
+                      const icon = e.target.querySelector('i');
+                      if (icon) {
+                        icon.style.transform = 'translateX(0)';
+                      }
                     }}
                   >
                     Get This Service
@@ -316,95 +220,12 @@ export default function Service4() {
                   right: '0',
                   width: '50px',
                   height: '50px',
-                  background: 'linear-gradient(135deg, transparent 50%, rgba(255,255,255,0.1) 50%)',
+                  background: 'linear-gradient(135deg, transparent 50%, rgba(255,255,255,0.2) 50%)',
                   borderBottomLeftRadius: '20px'
                 }}></div>
               </div>
             ))}
           </div>
-
-          {/* Bottom CTA Section */}
-          {/* <div className="bottom-cta" style={{
-            textAlign: 'center',
-            padding: '40px',
-            background: 'rgba(255,255,255,0.05)',
-            backdropFilter: 'blur(20px)',
-            borderRadius: '20px',
-            border: '1px solid rgba(255,255,255,0.1)',
-            position: 'relative',
-            zIndex: 2
-          }}>
-            <h3 style={{
-              color: 'white',
-              fontSize: '1.8rem',
-              fontWeight: '600',
-              marginBottom: '15px'
-            }}>
-              Ready to Transform Your Projects?
-            </h3>
-            <p style={{
-              color: 'rgba(255,255,255,0.8)',
-              fontSize: '1.1rem',
-              marginBottom: '25px',
-              maxWidth: '600px',
-              marginLeft: 'auto',
-              marginRight: 'auto'
-            }}>
-              Get in touch with our experts to discuss your specific requirements and discover how our engineered solutions can elevate your results.
-            </p>
-            <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
-              <Link 
-                to="/contact"
-                style={{
-                  background: 'linear-gradient(45deg, #FFD700, #FF6B00)',
-                  color: 'white',
-                  padding: '15px 30px',
-                  borderRadius: '50px',
-                  textDecoration: 'none',
-                  fontWeight: '600',
-                  fontSize: '1rem',
-                  transition: 'all 0.3s ease',
-                  border: 'none',
-                  cursor: 'pointer'
-                }}
-                onMouseEnter={(e) => {
-                  e.target.style.transform = 'translateY(-2px)';
-                  e.target.style.boxShadow = '0 10px 25px rgba(255,107,0,0.3)';
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.transform = 'translateY(0)';
-                  e.target.style.boxShadow = 'none';
-                }}
-              >
-                Contact Our Team
-              </Link>
-              <Link 
-                to="/services"
-                style={{
-                  background: 'transparent',
-                  color: 'white',
-                  padding: '15px 30px',
-                  borderRadius: '50px',
-                  textDecoration: 'none',
-                  fontWeight: '600',
-                  fontSize: '1rem',
-                  transition: 'all 0.3s ease',
-                  border: '2px solid rgba(255,255,255,0.3)',
-                  cursor: 'pointer'
-                }}
-                onMouseEnter={(e) => {
-                  e.target.style.background = 'rgba(255,255,255,0.1)';
-                  e.target.style.transform = 'translateY(-2px)';
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.background = 'transparent';
-                  e.target.style.transform = 'translateY(0)';
-                }}
-              >
-                View All Services
-              </Link>
-            </div>
-          </div> */}
         </div>
 
         <style jsx>{`
@@ -479,10 +300,6 @@ export default function Service4() {
             animation-delay: 2s;
           }
 
-          .service-cta:hover i {
-            transform: translateX(5px);
-          }
-
           @keyframes float {
             0%, 100% { transform: translateY(0px) rotate(0deg); }
             50% { transform: translateY(-20px) rotate(180deg); }
@@ -507,20 +324,11 @@ export default function Service4() {
             .service-card {
               padding: 20px !important;
             }
-            
-            .bottom-cta {
-              padding: 30px 20px !important;
-            }
           }
 
           @media (max-width: 480px) {
             .section-title {
               font-size: clamp(1.5rem, 6vw, 2.5rem) !important;
-            }
-            
-            .service-icon {
-              width: 60px !important;
-              height: 60px !important;
             }
             
             .service-image {

@@ -135,12 +135,12 @@ export default function News1() {
 					</div>
 				</div>
 				<div className="container-fluid">
-					<div className="swiper service-slider-2">
-						<Swiper {...swiperOptions} className="swiper-wrapper">
-							<SwiperSlide className="swiper-slide">
-								<div className="service-card-items">
-									<div className="service-image">
-										<img src="https://wadaangroup.com/wp-content/uploads/2025/03/QC2.jpg" alt="img" />
+					<div className="swiper service-slider-2" >
+						<Swiper {...swiperOptions} className="swiper-wrapper" >
+							<SwiperSlide className="swiper-slide" >
+								<div className="service-card-items" style={{borderRadius:'10px'}}>
+									<div className="service-image" >
+										<img src="https://wadaangroup.com/wp-content/uploads/2025/03/QC2.jpg" alt="img"  style={{borderRadius:'10px'}}/>
 									</div>
 									<div className="bar-shape">
 										<img src="assets/img/service/bar.png" alt="img" />
@@ -159,15 +159,15 @@ export default function News1() {
 								 {/* <i className="fa-solid fa-arrow-right" /> */}
 										</Link>
 									</div>
-									<div className="items-shape">
-										<img src="assets/img/service/items-shape.png" alt="img" />
+									<div className="items-shape" >
+										<img src="assets/img/service/items-shape.png" alt="img"  />
 									</div>
 								</div>
 							</SwiperSlide>
-							<SwiperSlide className="swiper-slide">
-								<div className="service-card-items">
+							<SwiperSlide className="swiper-slide" style={{borderRadius:'10px'}}>
+								<div className="service-card-items" style={{borderRadius:'10px'}}>
 									<div className="service-image">
-										<img src="https://wadaangroup.com/wp-content/uploads/2025/03/COLOR-MATCH.jpg" alt="img" />
+										<img src="https://wadaangroup.com/wp-content/uploads/2025/03/COLOR-MATCH.jpg" alt="img"  style={{borderRadius:'10px'}}/>
 									</div>
 									<div className="bar-shape">
 										<img src="assets/img/service/bar.png" alt="img" />

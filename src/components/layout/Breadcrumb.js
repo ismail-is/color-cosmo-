@@ -5,6 +5,7 @@ export default function Breadcrumb({ breadcrumbTitle,tagline }) {
 		<>
 			<div
 				className="breadcrumb-wrapper bg-cover"
+			
 				
 				// style={{ backgroundImage: 'url("assets/img/breadcrumb-bg.jpg")' }}
 			>
@@ -12,7 +13,7 @@ export default function Breadcrumb({ breadcrumbTitle,tagline }) {
 					<img src="assets/img/allimg/bg/bannershap.png" alt="img" />
 				</div> */}
 				<div className="container" > 
-					<div className="breadcrumb-wrapper-items">
+					<div className="breadcrumb-wrapper-items" >
 						<div className="page-heading">
 							<div className="breadcrumb-sub-title">
 								<h2 className="wow fadeInUp" data-wow-delay=".3s" style={{color:'white',marginBottom:'-70px'}}>
