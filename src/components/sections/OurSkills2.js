@@ -2,7 +2,7 @@
 export default function OurSkills2({ alt }) {
 	return (
 		<>
-			<section className={`skills-section fix section-padding ${alt ? "section-bg-2" : " pt-0"}`}>
+			<section className={`skills-section fix section-padding ${alt ? "section-bg-2" : " pt-0"}`} style={{ marginTop: window.innerWidth < 768 ? "-100px" : "0px" }}>
 				<div className="shape-1 float-bob-x">
 					{/* <img src="assets/img/skills/shape-1.png" alt="img" /> */}
 				</div>
@@ -22,20 +22,21 @@ export default function OurSkills2({ alt }) {
 									
 
 
-									<div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+									<div className="col-lg-6 wow fadeInUp d-none d-md-block" data-wow-delay=".4s">
 										<div className="skills-image">
 											<img src="assets/img/allimg/Ourproducts/1.png" alt="img" />
 										</div>
 									</div>
-									<div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+									<div className="col-lg-6 wow fadeInUp d-none d-md-block" data-wow-delay=".4s">
 										<div className="skills-image">
 											<img src="assets/img/allimg/Ourproducts/2.png" alt="img" />
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-6">
-								<div className="skill-content">
+
+							<div className="col-lg-6 ">
+								<div className="skill-content" >
 									<div className="section-title">
 										
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">
@@ -50,6 +51,26 @@ shade, every time. This precision protects your brand identity, ensures your smo
 production and delivers results you can rely on batch after batch.
 
 									</p>
+										<div className="row g-2 d-flex d-md-none mt-2"> {/* Show only on mobile */}
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/Ourproducts/1.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+  <div className="col-6">
+    <div className="details-image">
+      <img
+        src="assets/img/allimg/Ourproducts/2.png"
+        alt="img"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+</div>
                                     
                                     <section className="about-section fix " id="about">
 				
@@ -110,6 +131,9 @@ production and delivers results you can rely on batch after batch.
 					</div>
 				</div>
 			</section>
+
+
+			
 		</>
 	)
 }
