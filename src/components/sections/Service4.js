@@ -61,7 +61,7 @@ export default function Service4() {
         position: 'relative',
         overflow: 'hidden',
         padding: '100px 0',
-        marginTop: window.innerWidth <= 768 ? "-150px" : "0",
+        marginTop: window.innerWidth <= 768 ? "-70px" : "0",
       }}>
         {/* Animated Background Elements */}
         <div className="bg-animation">
