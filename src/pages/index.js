@@ -23,8 +23,9 @@ export default function Home() {
 				<Hero1 />
 
 				<About1 />
+				<OurSkills2/>
 			<Brand1 />
-			<OurSkills2/>
+			
 			<Service3 />
 			<Achivements />
 				

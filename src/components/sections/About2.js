@@ -1,13 +1,30 @@
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import ModalVideo from 'react-modal-video'
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import "../../../node_modules/react-modal-video/css/modal-video.css"
 export default function About2() {
 	const [isOpen, setOpen] = useState(false)
+const location = useLocation();
+
+  useEffect(() => {
+    if (location.state?.scrollTo) {
+      const id = location.state.scrollTo;
+      const element = document.getElementById(id);
+
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+
+        // Remove state so refresh doesn't scroll again
+        window.history.replaceState({}, document.title, "/products");
+      }
+    }
+  }, [location]);
+
 	return (
 		<>
 		{/* 1 */}
+		<div id='test'>
 		<section className="about-section fix section-padding" id="about">
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
@@ -264,11 +281,13 @@ export default function About2() {
 					</div>
 				</div>
 			</section>
+			</div>
 		{/* 1 */}
 
 
 
 {/* 2 */}
+<div id='test2'>
 <section className="about-section fix section-padding" id="about"  style={{marginTop:'-130px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
@@ -605,6 +624,7 @@ or compliance needs
 					</div>
 				</div>
 			</section>
+			</div>
 {/* 2 */}
 
 
@@ -619,6 +639,7 @@ or compliance needs
 
 
 {/* 3 */}
+<div id='test3'>
 			<section className="about-section fix section-padding" id="about" style={{marginTop:'-130px'}} >
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
@@ -820,6 +841,7 @@ or compliance needs
 					</div>
 				</div>
 			</section>
+			</div>
 {/* 3 */}
 
 
@@ -857,6 +879,7 @@ or compliance needs
 
 
 			{/* 4 */}
+			<div id='test4'>
 			<section className="about-section fix section-padding" id="about" style={{marginTop:'-130px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
@@ -1044,6 +1067,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 					</div>
 				</div>
 			</section>
+			</div>
 
 			{/* 4 */}
 
@@ -1059,6 +1083,7 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 
 
 			{/* 5 */}
+			<div id='test5'>
 			<section className="about-section fix section-padding" id="about" style={{marginTop:'-130px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
@@ -1242,11 +1267,13 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 					</div>
 				</div>
 			</section>
+			</div>
 {/* 5 */}
 
 
 
 {/* 6 */}
+<div id='test6'>
 <section className="about-section fix section-padding" id="about"  style={{marginTop:'-130px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
@@ -1465,9 +1492,11 @@ Best for :-
 					</div>
 				</div>
 			</section>
+			</div>
 {/* 6 */}
 
 
+<div id='test7'>
 <section className="about-section fix section-padding" id="about" style={{marginTop:'-140px'}}>
 				{/* <div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
@@ -1737,6 +1766,7 @@ by a trusted partner in every layer of the process.
 					</div>
 				</div>
 			</section>
+			</div>
 
 			<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="JXMWOmuR1hU" onClose={() => setOpen(false)} />
 

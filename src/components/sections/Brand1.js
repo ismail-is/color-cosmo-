@@ -35,7 +35,7 @@ const swiperOptions = {
 export default function Brand1({ alt }) {
 	return (
 		<>
-			<div className={`brand-section fix  ${alt ? "pt-0 section-bg-2" : ""}`} >
+			<div className={`brand-section fix  ${alt ? "pt-0 section-bg-2" : ""}`}  style={{marginTop:'-80px'}}>
 				<div className="container">
 				<div className="section-title text-center">
 						{/* <h6 className="wow fadeInUp">

@@ -37,7 +37,7 @@ const swiperOptions = {
 	},
 }
 
-export default function Project2() {
+export default function  	Project2() {
 	return (
 		<>
 			<section className="project-section section-padding pt-6 fix" id="projects" >
@@ -99,7 +99,7 @@ export default function Project2() {
         }}
 										>
 											<h4>
-												<Link to="/products" style={{color:'white' }}>UV Offset Ink </Link>
+												<Link  to="/products" style={{color:'white' }}   state={{ scrollTo: "test" }}>UV Offset Printing Inks</Link>
 											</h4>
 											{/* <span>
 												<i className="fa-sharp fa-solid fa-location-dot" /> 4648
@@ -125,7 +125,7 @@ export default function Project2() {
           width: "100%",
         }}>
 											<h4>
-												<Link to="/products" style={{color:'white' }}>UV based screen printing Ink</Link>
+												<Link to="/products" style={{color:'white' }} state={{ scrollTo: "test2" }}>UV / UV-LED Based Screen Printing Ink</Link>
 											</h4>
 											
 										</div>
@@ -148,7 +148,7 @@ export default function Project2() {
           width: "100%",
         }}>
 											<h4>
-												<Link to="/products" style={{color:'white' }}>Dry offset Ink</Link>
+												<Link to="/products" style={{color:'white' }} state={{ scrollTo: "test3" }}>Dry offset Inks</Link>
 											</h4>
 											
 										</div>
@@ -171,7 +171,7 @@ export default function Project2() {
           width: "100%",
         }}>
 											<h4>
-												<Link to="/products" style={{color:'white' }}>Solvent based screen<br/> printing Ink</Link>
+												<Link to="/products" style={{color:'white' }} state={{ scrollTo: "test5" }}>Solvent based screen<br/> printing Ink</Link>
 											</h4>
 											
 										</div>
@@ -195,7 +195,7 @@ export default function Project2() {
           width: "100%",
         }}>
 											<h4>
-												<Link to="/products" style={{color:'white' }}>Letter press Inks</Link>
+												<Link to="/products" style={{color:'white' }} state={{ scrollTo: "test4" }}>Letterpress Inks</Link>
 											</h4>
 											
 										</div>
@@ -220,7 +220,7 @@ export default function Project2() {
           width: "100%",
         }}>
 											<h4>
-												<Link to="/products" style={{color:'white'}}>UV varnishes</Link>
+												<Link to="/products" style={{color:'white'}} state={{ scrollTo: "test6" }}>UV OVP Varnishes</Link>
 											</h4>
 											
 										</div>
