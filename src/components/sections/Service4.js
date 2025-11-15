@@ -28,7 +28,7 @@ export default function Service4() {
       description: "Each ink batch is validated through vigilant lab testing at every step of production to ensure quality assurance. We test for uniformity of color strength and viscosity, curing, adhesion and shelf-life set according to the customer standards.",
       icon: "fas fa-headset",
       features: ["24/7 Expert Support", "Quick Problem Resolution", "Performance Optimization"],
-      gradient: "linear-gradient(135deg, #9C27B0, #E91E63)",
+      gradient: "linear-gradient(135deg, #4A136E, #2A9DF4)",
       image: "assets/img/allimg/service/3.webp",
       link: "/contact"
     },
