@@ -173,6 +173,13 @@ export default function Footer1() {
 							<div
 								className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
 								data-wow-delay=".6s"
+							style={{
+  display: window.matchMedia("(max-width: 768px)").matches
+    ? "none"
+    : "block"
+}}
+
+
 							>
 								<div className="single-footer-widget">
 									<div className="widget-head">
