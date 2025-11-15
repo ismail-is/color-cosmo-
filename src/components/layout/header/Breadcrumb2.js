@@ -22,6 +22,7 @@ export default function Breadcrumb2({ tagline }) {
   style={{
     color: "white",
     marginTop: window.innerWidth <= 768 ? "-160px" : "-60px",
+	
     //  marginBottom: window.innerWidth <= 768 ? "-260px" : "-160px",
   }}
 >

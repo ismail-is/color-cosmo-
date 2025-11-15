@@ -16,7 +16,7 @@ export default function Breadcrumb({ breadcrumbTitle,tagline }) {
 					<div className="breadcrumb-wrapper-items" >
 						<div className="page-heading">
 							<div className="breadcrumb-sub-title">
-								<h2 className="wow fadeInUp" data-wow-delay=".3s" style={{color:'white',marginBottom:'-70px'}}>
+								<h2 className="wow fadeInUp" data-wow-delay=".3s" style={{color:'white',marginTop: window.innerWidth < 768 ? "-100px" : "0px"}}>
 									{breadcrumbTitle}
 									
 								</h2>
@@ -31,7 +31,7 @@ export default function Breadcrumb({ breadcrumbTitle,tagline }) {
 								<li>
 									<i className="fa-sharp fa-solid fa-slash-forward" />
 								</li> */}
-								{/* <li>{breadcrumbTitle}</li> */}
+								<li style={{color:'white'}}>{tagline}</li>
 							</ul>
 						</div>
 					</div>

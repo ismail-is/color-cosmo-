@@ -116,8 +116,8 @@ export default function Layout({
 				handleSearch={handleSearch} />
 
 			<main className="main" >
-				{breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} tagline={tagline} />}
-				{tagline && <Breadcrumb2  tagline={tagline} />}
+				{breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle}  tagline={tagline}/>}
+				{/* {tagline && <Breadcrumb2  tagline={tagline} />} */}
 
 				{children}
 			</main>
