@@ -194,13 +194,6 @@ export default function Footer1() {
 
 											</Link>
 										</li>
-										<li className="footertag" >
-											<Link to="/products" className="footertag" state={{ scrollTo: "test2" }}>
-												<i className="fa-solid fa-chevrons-right" />
-												
-												UV / UV-LED Based Screen Printing Ink
-											</Link>
-										</li>
 										<li className="footertag">
 											<Link to="/products" className="footertag" state={{ scrollTo: "test3" }}>
 												<i className="fa-solid fa-chevrons-right" />
@@ -213,13 +206,6 @@ export default function Footer1() {
 												<i className="fa-solid fa-chevrons-right" />
 												
 												Letterpress Inks
-											</Link>
-										</li>
-										<li className="footertag">
-											<Link to="/products" className="footertag" state={{ scrollTo: "test5" }}>
-												<i className="fa-solid fa-chevrons-right" />
-												
-												Solvent based screen printing ink
 											</Link>
 										</li>
 										<li className="footertag">
@@ -236,6 +222,22 @@ export default function Footer1() {
 											Consumables
 											</Link>
 										</li>
+										<li className="footertag" >
+											<Link to="/products" className="footertag" state={{ scrollTo: "test2" }}>
+												<i className="fa-solid fa-chevrons-right" />
+												
+												UV / UV-LED Based Screen Printing Ink
+											</Link>
+										</li>
+										
+										<li className="footertag">
+											<Link to="/products" className="footertag" state={{ scrollTo: "test5" }}>
+												<i className="fa-solid fa-chevrons-right" />
+												
+												Solvent based screen printing ink
+											</Link>
+										</li>
+										
 										
 										
 									</ul>

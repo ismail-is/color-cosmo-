@@ -26,11 +26,15 @@ export default function ContactInfo() {
 							<div className="icon">
 							<i className="far fa-location-dot" />
 							</div>
-							<div className="content">
+							<div className="content" style={
+  window.matchMedia("(max-width: 768px)").matches
+    ? { marginTop: "-90px", marginLeft: "100px" }
+    : {}
+}>
 								<h3>Our Address</h3>
+								
 								<p>
-								Warehouse B1-13, Gate 1, 
-									<br /> Ajman Freezone, Ajman, UAE
+								Warehouse B1-13, Gate 1, Ajman Freezone, Ajman, UAE
 								</p>
 							</div>
 						</div>
