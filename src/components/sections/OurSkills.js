@@ -16,7 +16,7 @@ export default function OurSkills({ alt }) {
 								<div className="row g-4">
 									<div className="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
 										<div className="skills-image">
-											<img src="https://wadaangroup.com/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-16-at-2.46.46-AM.jpeg" alt="img" />
+											<img src="assets/img/allimg/14.png" alt="img" />
 										</div>
 									</div>
 {/* 									

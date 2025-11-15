@@ -8,6 +8,7 @@ import Faq from "../components/sections/Faq"
 import Hero1 from "../components/sections/Hero1"
 import News1 from "../components/sections/News1"
 import OurSkills from "../components/sections/OurSkills"
+import OurSkills2 from "../components/sections/OurSkills2"
 import Project1 from "../components/sections/Project1"
 import Project2 from "../components/sections/Project2"
 import Service1 from "../components/sections/Service1"
@@ -23,6 +24,7 @@ export default function Home() {
 
 				<About1 />
 			<Brand1 />
+			<OurSkills2/>
 			<Service3 />
 			<Achivements />
 				

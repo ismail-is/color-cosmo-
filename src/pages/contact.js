@@ -9,7 +9,7 @@ import Whatsapp from "../components/sections/Whatsapp"
 export default function Contact() {
 	return (
 		<>
-			<Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contact Us">
+			<Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contact Us" tagline="Print Brighter. Print Better. Today.">
 				<ContactInfo />
 				<Contacts />
 				{/* <ContactSection /> */}

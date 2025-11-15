@@ -11,11 +11,13 @@ import Header3 from "./header/Header3"
 import Header4 from "./header/Header4"
 import Offcanvas from "./Offcanvas"
 import Search from "./Search"
+import Breadcrumb2 from "./header/Breadcrumb2"
 
 export default function Layout({
 	headerStyle,
 	footerStyle,
 	breadcrumbTitle,
+	tagline,
 	children,
 }) {
 	const [scroll, setScroll] = useState(0)
@@ -113,8 +115,9 @@ export default function Layout({
 				isSearch={isSearch}
 				handleSearch={handleSearch} />
 
-			<main className="main">
-				{breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
+			<main className="main" >
+				{breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} tagline={tagline} />}
+				{tagline && <Breadcrumb2  tagline={tagline} />}
 
 				{children}
 			</main>

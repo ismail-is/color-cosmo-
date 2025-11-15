@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
 
-export default function Breadcrumb({ breadcrumbTitle,tagline }) {
+export default function Breadcrumb2({ tagline }) {
 	return (
 		<>
 			<div
+            
 				className="breadcrumb-wrapper bg-cover"
 				
 				// style={{ backgroundImage: 'url("assets/img/breadcrumb-bg.jpg")' }}
@@ -15,10 +16,18 @@ export default function Breadcrumb({ breadcrumbTitle,tagline }) {
 					<div className="breadcrumb-wrapper-items">
 						<div className="page-heading">
 							<div className="breadcrumb-sub-title">
-								<h2 className="wow fadeInUp" data-wow-delay=".3s" style={{color:'white',marginBottom:'-70px'}}>
-									{breadcrumbTitle}
-									
-								</h2>
+								<h3
+  className="wow fadeInUp"
+  data-wow-delay=".3s"
+  style={{
+    color: "white",
+    marginTop: window.innerWidth <= 768 ? "-160px" : "-60px",
+    //  marginBottom: window.innerWidth <= 768 ? "-260px" : "-160px",
+  }}
+>
+  {tagline}
+</h3>
+
 							</div>
 							<ul
 								className="breadcrumb-items wow fadeInUp"

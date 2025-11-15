@@ -11,7 +11,7 @@ import Whatsapp from "../components/sections/Whatsapp"
 export default function About() {
 	return (
 		<>
-			<Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us">
+			<Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us" tagline="Your Color. Our Identity.">
 				{/* <About1 /> */}
 			<br/>
 				<News1 />

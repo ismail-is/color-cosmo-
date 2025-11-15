@@ -290,7 +290,8 @@ export default function About2() {
 										</h6>
 										<h2 className="wow fadeInUp" data-wow-delay=".2s">
 								
-										UV based screen printing ink
+										UV / UV-LED Based Screen
+Printing Ink
 										</h2>
 									</div>
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
@@ -1165,29 +1166,29 @@ Color Cosmo’s UV Letterpress Inks are ITX and Benzo-free, formulated for seaml
 
 									<div className="row g-4 mt-3">
 									<h4 className="wow fadeInUp" data-wow-delay=".2s">
-									Best Applications
+									 Applications
 										</h4>
 										<div className="col-lg-12 wow fadeInUp mt-0" data-wow-delay=".2s">
 												<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
 												<li>
 													<i className="fa-solid fa-circle-check" />
-													Outdoor Signage & Banners
+													PP & HDPE Products (Jerry cans, Plastic Jars, Plastic Barrels)
 												</li>
 												<li>
 													<i className="fa-solid fa-circle-check" />
-												Vehicle Wraps & Fleet Graphics
+												Paper and Plastic Cups
 												</li>
 												<li>
 													<i className="fa-solid fa-circle-check" />
-												Industrial Labels & Safety Markings
+												Glass bottles (Food, Cosmetics and Perfumes)
 												</li>
 												<li>
 													<i className="fa-solid fa-circle-check" />
-												Industrial Labels & Safety Markings
+												 Metal Barrels
 												</li>
 												<li>
 													<i className="fa-solid fa-circle-check" />
-												Promotional Products (flags, tents, awnings)
+												Industrial Labels and Safety Markings
 												</li>
 												</ul>
 										</div>

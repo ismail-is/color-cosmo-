@@ -53,11 +53,11 @@ export default function Service1() {
 			>
 				<div className="container">
 					<div className="section-title text-center">
-						<h6 className="wow fadeInUp" style={{color:'#CB239A'}}>
+						{/* <h6 className="wow fadeInUp" style={{color:'#CB239A'}}>
 							<i className="fa-regular fa-arrow-left-long" />
 							our process
 							<i className="fa-regular fa-arrow-right-long" />
-						</h6>
+						</h6> */}
 						{/* <h2 className="wow fadeInUp text-white" data-wow-delay=".2s">
 						Our Work Process
 						</h2> */}

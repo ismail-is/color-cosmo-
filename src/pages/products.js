@@ -13,7 +13,7 @@ import Testimonial2 from "../components/sections/Testimonial2"
 export default function Products() {
     return (
         <>
-               <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Products">
+               <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Products" tagline='Consistency. Performance. Reliability.'>
                 <About2 />
             </Layout>
         </>

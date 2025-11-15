@@ -64,15 +64,17 @@ export default function Service2() {
 				</div> */}
 				<div className="container">
 					<div className="section-title text-center">
-						<h6 className="wow fadeInUp">
+						{/* <h6 className="wow fadeInUp">
 							<i className="fa-regular fa-arrow-left-long" />
 							our services
 							<i className="fa-regular fa-arrow-right-long" />
-						</h6>
+						</h6> */}
 						<h2 className="text-white wow fadeInUp" data-wow-delay=".2s">
-						Innovating the Future of Coatings & Inks
-						</h2>
-						<p style={{color:'white',fontWeight:'initial'}}>We offer a comprehensive range of services, including custom color matching, specialty coatings, and high-performance UV and UV LED printing inks—tailored to meet the diverse needs of multiple industries. Our expertise ensures precision, durability, and vibrant results across all applications. Backed by cutting-edge technology and a strong commitment to quality, we deliver innovative solutions that enhance product performance and visual appeal.</p>
+						Engineered coatings and inks for
+superior performance and standout visuals
+						</h2><br/>
+						<p style={{color:'white',fontWeight:'initial'}}>Custom colors, specialty finishes, and UV/UV-LED inks backed by cutting-edge
+technology and premium quality</p>
 					</div>
 				</div>
 				<div className="container-fluid">

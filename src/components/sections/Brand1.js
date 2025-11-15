@@ -71,12 +71,12 @@ export default function Brand1({ alt }) {
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="brand-image center">
-								<img src="assets/img/allimg/client/5.png" alt="img" />
+								<img src="assets/img/allimg/client/11.png" alt="img" />
 								</div>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="brand-image center">
-								<img src="assets/img/allimg/client/6.png" alt="img" />
+								<img src="assets/img/allimg/client/12.png" alt="img" />
 								</div>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
