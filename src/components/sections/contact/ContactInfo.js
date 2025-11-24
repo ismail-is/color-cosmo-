@@ -51,7 +51,8 @@ export default function ContactInfo() {
 								<h3>Email Address</h3>
 								<p>
 							
-									<Link to="/mailto:info@colorcosmo.com">info@colorcosmo.com</Link>
+									<Link to="/mailto:sales@colorcosmo.com">sales@colorcosmo.com
+</Link>
 								</p>
 							</div>
 						</div>

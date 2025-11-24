@@ -5,7 +5,7 @@ export default function Service4() {
     {
       id: 1,
       title: "Color Matching",
-      description: "WWe provide precise color calibration services using advanced spectrophotometric technology to ensure your printed materials, products, and designs achieve the exact shade you require. Our expert color management and controlled workflows maintain consistent accuracy across different substrates and production processes, delivering vibrant, repeatable, and brand-true results every time. ",
+      description: "We provide precise color calibration services using advanced spectrophotometric technology to ensure your printed materials, products, and designs achieve the exact shade you require. Our expert color management and controlled workflows maintain consistent accuracy across different substrates and production processes, delivering vibrant, repeatable, and brand-true results every time. ",
       icon: "fa-sharp fa-solid fa-swatchbook",
       features: ["Advanced Color Technology", "Consistent Results", "All Materials Supported"],
       gradient: "linear-gradient(135deg, #4A136E, #2A9DF4)",
@@ -15,7 +15,7 @@ export default function Service4() {
     {
       id: 2,
       title: "Custom Made Inks",
-      description: "We can develop application-specific ink systems—UV/UV-LED, water-based, or solvent— precisely tuned to your required shade, opacity, viscosity, adhesion, and curing profile for the target substrates and printing methods. Through controlled lab trials and press trials we can validate stability and printability, ensuring reliable color accuracy, durability and productionready performance on every run.",
+      description: "We can develop application-specific ink systems—UV/UV-LED, water-based, or solvent— precisely tuned to your required shade, opacity, viscosity, adhesion, and curing profile for the target substrates and printing methods. Through controlled lab trials and press trials we can validate stability and printability, ensuring reliable color accuracy, durability and production ready performance on every run.",
       icon: "fa-solid fa-paintbrush-pencil",
       features: ["Tailored Formulations", "Eco-Friendly Options", "Enhanced Durability"],
       gradient: "linear-gradient(135deg, #4CAF50, #2196F3)",

@@ -256,7 +256,8 @@ export default function Footer1() {
 										<p style={{color:'rgb(217 217 215 / 80%)'}}>Warehouse B1-13, Gate<br/> 1,Ajman Freezone, Ajman, UAE</p>
 										</li>
 										<li className="footertag">
-									<Link to="/mailto:info@colorcosmo.com" className="footertag">info@colorcosmo.com</Link>
+									<Link to="/mailto:sales@colorcosmo.com" className="footertag">sales@colorcosmo.com
+</Link>
 										</li>
 										
 										<li className="footertag">
